@@ -5,6 +5,21 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JejuFarm Receipt Project", "JejuFarm Receipt Project\JejuFarm Receipt Project.csproj", "{9E002A8D-F5FF-4709-9727-AF91F6D89780}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramCore", "ProgramCore\ProgramCore.csproj", "{E5ADB2C7-7887-4575-AA3D-AA9FA6EDFC44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IniSettings", "IniSettings\IniSettings.csproj", "{360CFF51-4406-4035-8413-3EF478897879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothCore", "BluetoothCore\BluetoothCore.csproj", "{6417FC4A-99A6-425A-8580-9A0A3328547D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrinterCore", "PrinterCore\PrinterCore.csproj", "{64B69764-CBC0-4F74-AC41-C1A4553B045C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{982306F4-88AF-4ABF-9DEE-B2A6299BB888}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E27E5189-ED63-4745-A0E0-3692C926092C}"
+	ProjectSection(SolutionItems) = preProject
+		README.MD = README.MD
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +30,24 @@ Global
 		{9E002A8D-F5FF-4709-9727-AF91F6D89780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E002A8D-F5FF-4709-9727-AF91F6D89780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E002A8D-F5FF-4709-9727-AF91F6D89780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5ADB2C7-7887-4575-AA3D-AA9FA6EDFC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5ADB2C7-7887-4575-AA3D-AA9FA6EDFC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5ADB2C7-7887-4575-AA3D-AA9FA6EDFC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5ADB2C7-7887-4575-AA3D-AA9FA6EDFC44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360CFF51-4406-4035-8413-3EF478897879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360CFF51-4406-4035-8413-3EF478897879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360CFF51-4406-4035-8413-3EF478897879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360CFF51-4406-4035-8413-3EF478897879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6417FC4A-99A6-425A-8580-9A0A3328547D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6417FC4A-99A6-425A-8580-9A0A3328547D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6417FC4A-99A6-425A-8580-9A0A3328547D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6417FC4A-99A6-425A-8580-9A0A3328547D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B69764-CBC0-4F74-AC41-C1A4553B045C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B69764-CBC0-4F74-AC41-C1A4553B045C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B69764-CBC0-4F74-AC41-C1A4553B045C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B69764-CBC0-4F74-AC41-C1A4553B045C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982306F4-88AF-4ABF-9DEE-B2A6299BB888}.Debug|Any CPU.ActiveCfg = Debug
+		{982306F4-88AF-4ABF-9DEE-B2A6299BB888}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

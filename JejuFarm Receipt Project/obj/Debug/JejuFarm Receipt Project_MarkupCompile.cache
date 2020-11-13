@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\App.xaml
-3-1248924347
+9-710399437
 
-141819001111
-151414211408
-MainWindow.xaml;SubWindow\ContentWindow\ReceiptWindow.xaml;SubWindow\MenuWindow.xaml;
+22167688277
+24-702928214
+MainWindow.xaml;PrinterFormWindow.xaml;SubWindow\ContentWindow\ReceiptWindow.xaml;SubWindow\ContentWindow\SettingsWindow\BluetoothSettingWindow.xaml;SubWindow\ContentWindow\SettingsWindow\CactusSettingWindow.xaml;SubWindow\ContentWindow\SettingsWindow\PrinterSettingWindow.xaml;SubWindow\ContentWindow\SettingsWindow\ProgramSettingWindow.xaml;SubWindow\ContentWindow\SettingWindow.xaml;SubWindow\MenuWindow.xaml;
 
 False
 

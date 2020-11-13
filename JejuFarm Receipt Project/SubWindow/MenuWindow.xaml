@@ -8,7 +8,7 @@
              d:DesignHeight="450" d:DesignWidth="800">
 
     <UserControl.Resources>
-        <Style x:Key="MenuButtonStyle" TargetType="Button">
+        <Style x:Key="MenuButtonStyle" TargetType="Button" BasedOn="{StaticResource BasedButtonStyle}">
             <Setter Property="Cursor" Value="Hand"/>
             <Setter Property="Background" Value="White"/>
             <Setter Property="Foreground" Value="Black"/>
@@ -17,29 +17,6 @@
             <Setter Property="Width" Value="auto"/>
             <Setter Property="Height" Value="60"/>
             <Setter Property="Margin" Value="10"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border x:Name="object" BorderBrush="Black" BorderThickness="2"
-                                Background="{TemplateBinding Background}">
-                            <ContentPresenter Content="{TemplateBinding Content}"/>
-                        </Border>
-                        
-                        <!--<ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="object" Property="Background" Value="Black"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>-->
-                    
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Foreground" Value="White"/>
-                    <Setter Property="Background" Value="Black"/>
-                </Trigger>
-            </Style.Triggers>
         </Style>
     </UserControl.Resources>
 

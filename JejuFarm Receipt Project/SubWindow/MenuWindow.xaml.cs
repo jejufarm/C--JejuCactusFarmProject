@@ -1,5 +1,4 @@
-﻿using JejuFarm_Receipt_Project.Binding.ObjectModel;
-using JejuFarm_Receipt_Project.Binding.ObjectViewModel;
+﻿using JejuFarm_Receipt_Project.Binding.ObjectViewModel;
 using JejuFarm_Receipt_Project.SubWindow.ContentWindow;
 using System;
 using System.Collections.Generic;
@@ -30,7 +29,8 @@ namespace JejuFarm_Receipt_Project.SubWindow
 
         private void SettingButton_Click(object sender, RoutedEventArgs e)
         {
-
+            //ContentControlViewModel.GetInstance().Page = new PrinterFormWindow();
+            ContentControlViewModel.GetInstance().Page = new SettingWindow();
         }
 
         private void HomeButton_Click(object sender, RoutedEventArgs e)

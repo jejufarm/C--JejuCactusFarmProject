@@ -1,17 +1,76 @@
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\JejuFarm Receipt Project.exe.config
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\JejuFarm Receipt Project.exe
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\JejuFarm Receipt Project.pdb
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\INIProject.dll
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignColors.dll
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\ProgramCore.dll
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\INIProject.pdb
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\ProgramCore.pdb
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignColors.pdb
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.csprojAssemblyReference.cache
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\MenuWindow.baml
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\MainWindow.g.cs
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\ReceiptWindow.g.cs
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingWindow.g.cs
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\MenuWindow.g.cs
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\App.g.cs
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project_MarkupCompile.cache
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project_MarkupCompile.lref
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\App.baml
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\MainWindow.baml
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\ReceiptWindow.baml
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingWindow.baml
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.g.resources
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm_Receipt_Project.Properties.Resources.resources
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.csproj.GenerateResource.cache
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.csproj.CoreCompileInputs.cache
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.csproj.CopyComplete
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.exe
+C:\Users\cjwgi\Desktop\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.pdb
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\JejuFarm Receipt Project.exe.config
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\JejuFarm Receipt Project.exe
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\JejuFarm Receipt Project.pdb
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\BluetoothCore.dll
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\IniSettings.dll
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignColors.dll
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\PrinterCore.dll
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\ProgramCore.dll
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\InTheHand.Net.Personal.dll
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\BluetoothCore.pdb
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\IniSettings.pdb
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\PrinterCore.pdb
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\ProgramCore.pdb
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignColors.pdb
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignThemes.Wpf.pdb
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\InTheHand.Net.Personal.xml
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.csprojAssemblyReference.cache
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingWindow.baml
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\MenuWindow.baml
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\MainWindow.g.cs
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\PrinterFormWindow.g.cs
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\ReceiptWindow.g.cs
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\BluetoothSettingWindow.g.cs
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\PrinterSettingWindow.g.cs
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\ProgramSettingWindow.g.cs
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingWindow.g.cs
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\MenuWindow.g.cs
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\App.g.cs
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project_MarkupCompile.cache
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project_MarkupCompile.lref
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\App.baml
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\MainWindow.baml
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\PrinterFormWindow.baml
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\ReceiptWindow.baml
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\BluetoothSettingWindow.baml
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\PrinterSettingWindow.baml
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\ProgramSettingWindow.baml
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.g.resources
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm_Receipt_Project.Properties.Resources.resources
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.csproj.GenerateResource.cache
@@ -19,9 +78,5 @@ C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.csproj.CopyComplete
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.exe
 C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.pdb
-C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\App.baml
-C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\MenuWindow.g.cs
-C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\MenuWindow.baml
-C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\ReceiptWindow.g.cs
-C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\ReceiptWindow.baml
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\CactusSettingWindow.g.cs
+C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\CactusSettingWindow.baml

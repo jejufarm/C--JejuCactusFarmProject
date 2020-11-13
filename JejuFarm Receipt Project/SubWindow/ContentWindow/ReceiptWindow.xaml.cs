@@ -1,10 +1,14 @@
-﻿using JejuFarm_Receipt_Project.Binding.ObjectModel;
+﻿
+using IniSettings;
 using JejuFarm_Receipt_Project.Binding.ObjectViewModel;
+using PrinterCore;
+using ProgramCore.ObjectModel;
 using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Media;
 
 namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow
 {
@@ -13,61 +17,34 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow
     /// </summary>
     public partial class ReceiptWindow : UserControl
     {
-        private double[] basket_auto_size = { 8, 3, 6, 5, 5 };
-        private int count = 0;
+        private double[] basket_auto_size = { 0 };
+        private Printer printer = new Printer();
+
+
         private void InitBinding()
         {
             BasketListView.ItemsSource = BasketListViewModel.GetInstance();
             CactusListBox.ItemsSource = CacutsListBoxModel.GetInstance();
+
+            BasketListView.DataContext = BasketListFontSizeViewModel.GetInstance();
+            CactusListBox.DataContext = ListBoxFontSizeViewModel.GetInstance();
+            CountListBox.DataContext = ListBoxFontSizeViewModel.GetInstance();
+            INISetting ini = new INISetting();
+            basket_auto_size = ini.LoadListViewWidth();
+
         }
         public ReceiptWindow()
         {
             InitializeComponent();
             InitBinding();
+            
+            INISetting ini = new INISetting();
+            CacutsListBoxModel.Load(ini.LoadCactusList());
 
-            List<CactusListForm> list = new List<CactusListForm>();
-            list.Add(new CactusListForm() { Title = "성성환", Price = 45000 });
-            list.Add(new CactusListForm() { Title = "소정", Price = 35000 });
-            list.Add(new CactusListForm() { Title = "금황환", Price = 50000 });
-            list.Add(new CactusListForm() { Title = "용심목", Price = 70000 });
-            list.Add(new CactusListForm() { Title = "설황", Price = 30000 });
-            list.Add(new CactusListForm() { Title = "성성환", Price = 45000 });
-            list.Add(new CactusListForm() { Title = "소정", Price = 35000 });
-            list.Add(new CactusListForm() { Title = "금황환", Price = 50000 });
-            list.Add(new CactusListForm() { Title = "용심목", Price = 70000 });
-            list.Add(new CactusListForm() { Title = "설황", Price = 30000 });
-            list.Add(new CactusListForm() { Title = "성성환", Price = 45000 });
-            list.Add(new CactusListForm() { Title = "소정", Price = 35000 });
-            list.Add(new CactusListForm() { Title = "금황환", Price = 50000 });
-            list.Add(new CactusListForm() { Title = "용심목", Price = 70000 });
-            list.Add(new CactusListForm() { Title = "설황", Price = 30000 });
-            list.Add(new CactusListForm() { Title = "성성환", Price = 45000 });
-            list.Add(new CactusListForm() { Title = "소정", Price = 35000 });
-            list.Add(new CactusListForm() { Title = "금황환", Price = 50000 });
-            list.Add(new CactusListForm() { Title = "용심목", Price = 70000 });
-            list.Add(new CactusListForm() { Title = "설황", Price = 30000 });
-            list.Add(new CactusListForm() { Title = "성성환", Price = 45000 });
-            list.Add(new CactusListForm() { Title = "소정", Price = 35000 });
-            list.Add(new CactusListForm() { Title = "금황환", Price = 50000 });
-            list.Add(new CactusListForm() { Title = "용심목", Price = 70000 });
-            list.Add(new CactusListForm() { Title = "설황", Price = 30000 });
-            list.Add(new CactusListForm() { Title = "성성환", Price = 45000 });
-            list.Add(new CactusListForm() { Title = "소정", Price = 35000 });
-            list.Add(new CactusListForm() { Title = "금황환", Price = 50000 });
-            list.Add(new CactusListForm() { Title = "용심목", Price = 70000 });
-            list.Add(new CactusListForm() { Title = "설황", Price = 30000 });
-            list.Add(new CactusListForm() { Title = "성성환", Price = 45000 });
-            list.Add(new CactusListForm() { Title = "소정", Price = 35000 });
-            list.Add(new CactusListForm() { Title = "금황환", Price = 50000 });
-            list.Add(new CactusListForm() { Title = "용심목", Price = 70000 });
-            list.Add(new CactusListForm() { Title = "설황", Price = 30000 });
-            list.Add(new CactusListForm() { Title = "성성환", Price = 45000 });
-            list.Add(new CactusListForm() { Title = "소정", Price = 35000 });
-            list.Add(new CactusListForm() { Title = "금황환", Price = 50000 });
-            list.Add(new CactusListForm() { Title = "용심목", Price = 70000 });
-            list.Add(new CactusListForm() { Title = "설황", Price = 30000 });
-            CacutsListBoxModel.Load(list);
-
+            ListBoxFontSizeViewModel.GetInstance().FontSize = ini.LoadListBoxFontSize();
+            BasketListFontSizeViewModel.GetInstance().FontSize = ini.LoadListViewFontSize();
+            for (int i = 1; i <= 50; i++)
+                CountListBox.Items.Add(i);
         }
 
         private void BasketListView_SizeChanged(object sender, SizeChangedEventArgs e)
@@ -77,12 +54,6 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow
                 for (int idx = 0; idx < 5; idx++)
                     (BasketListView.View as GridView).Columns[idx].Width = Math.Ceiling(remainingSpace / basket_auto_size[idx]);
         }
-
-        private void TempButton_Click(object sender, RoutedEventArgs e)
-        {
-            BasketListModel.Insert(new BasketListForm() { Title = "선인장" + ++count, Count = 5, Price = 150000 });
-        }
-
 
         private void BasketListView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
@@ -100,21 +71,49 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow
         private void InsertButton_Click(object sender, RoutedEventArgs e)
         {
             dynamic Item = CactusListBox as dynamic;
-            if (Item.SelectedItems.Count > 0)
+            dynamic count = CountListBox as dynamic;
+            if (BasketListModel.GetInstance().Count >= 21)
+            {
+                MessageBox.Show("22개부터는 추가하실 수 없습니다.", "경고");
+                return;
+            }
+            if (Item.SelectedItems.Count > 0 && count.SelectedItems.Count > 0)
             {
                 BasketListModel.Insert(new BasketListForm()
                 {
                     Title = Item.SelectedItems[0].Title,
                     Price = Item.SelectedItems[0].Price,
-                    Count = 5
+                    Count = count.SelectedItems[0]
                 });
 
                 CactusListBox.SelectedItem = null;
+                CountListBox.SelectedItem = null;
             }
             else
             {
-                MessageBox.Show("항목이 선택되지 않았습니다.", "경고");
+                // TODO: 항목선택
+                //MessageBox.Show("항목이 선택되지 않았습니다.", "경고");
             }
+        }
+
+        private void PrinterButton_Click(object sender, RoutedEventArgs e)
+        {
+            int count = 0;
+            int total = 0;
+            foreach(var item in BasketListModel.GetInstance())
+            {
+                count += item.Count;
+                total += item.Total;
+            }
+            ReceiptFormViewModel.GetInstance().Count = count;
+            ReceiptFormViewModel.GetInstance().Total = total;
+            ReceiptFormViewModel.GetInstance().Time = DateTime.Now.ToString("yyyy년MM월dd일 h시mm분ss초");
+
+            ReceiptFormViewModel.GetInstance().List.Clear();
+            foreach (var item in BasketListModel.GetInstance())
+                ReceiptFormViewModel.GetInstance().List.Add(item);
+
+            //printer.Print(new PrinterFormWindow());
         }
 
     }

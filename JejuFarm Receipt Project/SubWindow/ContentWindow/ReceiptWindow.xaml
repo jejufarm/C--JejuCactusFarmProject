@@ -7,37 +7,34 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <UserControl.Resources>
-        <Style x:Key="NormalButtonStyle" TargetType="Button">
-            <Setter Property="Cursor" Value="Hand"/>
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="Foreground" Value="Black"/>
-            <Setter Property="BorderBrush" Value="Black"/>
-            <Setter Property="BorderThickness" Value="0.4"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border x:Name="object" BorderBrush="Black" BorderThickness="2"
-                                Background="{TemplateBinding Background}">
-                            <ContentPresenter Content="{TemplateBinding Content}"/>
-                        </Border>
-
-                        <!--<ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="object" Property="Background" Value="Black"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>-->
-
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
+        <Style x:Key="PrintButtonStyle" TargetType="Button" BasedOn="{StaticResource BasedButtonStyle}">
             <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Foreground" Value="White"/>
-                    <Setter Property="Background" Value="Black"/>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Foreground" Value="Red"/>
+                    <Setter Property="Background" Value="White"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
+        
+        <Style x:Key="ListBoxItemStyle" TargetType="ListBoxItem">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border Name="border" SnapsToDevicePixels="True" Padding="2">
+                            <ContentPresenter />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="Black"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </UserControl.Resources>
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="9*"/>
@@ -46,10 +43,11 @@
         <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,0">
             <ListView x:Name="BasketListView" IsSynchronizedWithCurrentItem="True"
                       SizeChanged="BasketListView_SizeChanged" MouseDoubleClick="BasketListView_MouseDoubleClick"
-                      TextElement.FontSize="25" TextElement.FontWeight="Bold">
+                      TextElement.FontSize="{Binding FontSize}" TextElement.FontWeight="Bold">
+
                 <ListView.ItemContainerStyle>
                     <Style TargetType="ListViewItem">
-                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                        <Setter Property="HorizontalAlignment" Value="Left"/>
                     </Style>
                 </ListView.ItemContainerStyle>
                 <ListView.View>
@@ -57,8 +55,8 @@
                         <GridViewColumn TextBlock.TextAlignment="Center" DisplayMemberBinding="{Binding Index}" Header="번호"/>
                         <GridViewColumn TextBlock.TextAlignment="Center" DisplayMemberBinding="{Binding Title}" Header="품명"/>
                         <GridViewColumn TextBlock.TextAlignment="Center" DisplayMemberBinding="{Binding Count}" Header="수량"/>
-                        <GridViewColumn TextBlock.TextAlignment="Center" DisplayMemberBinding="{Binding Price}" Header="단가"/>
-                        <GridViewColumn TextBlock.TextAlignment="Center" DisplayMemberBinding="{Binding Total}" Header="가격"/>
+                        <GridViewColumn TextBlock.TextAlignment="Center" DisplayMemberBinding="{Binding Price, StringFormat=\{0:N0\}}" Header="단가"/>
+                        <GridViewColumn TextBlock.TextAlignment="Center" DisplayMemberBinding="{Binding Total, StringFormat=\{0:N0\}}" Header="가격"/>
                     </GridView>
                 </ListView.View>
             </ListView>
@@ -72,7 +70,7 @@
             <Button x:Name="InsertButton"
                 Click="InsertButton_Click"
                 Grid.Row="0"
-                Style="{StaticResource NormalButtonStyle}"
+                Style="{StaticResource BasedButtonStyle}"
                 ToolTip="항목 추가하기">
                 <Viewbox>
                     <materialDesign:PackIcon Kind="PlusThick" />
@@ -85,30 +83,35 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,0">
-                        <ListBox x:Name="CactusListBox">
+                        <ListBox x:Name="CactusListBox"  FontSize="{Binding FontSize}"
+                                 ItemContainerStyle="{DynamicResource ListBoxItemStyle}" MouseDoubleClick="InsertButton_Click">
                             <ListBox.ItemTemplate>
                                 <DataTemplate>
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock FontSize="17" FontWeight="UltraBold" Text="{Binding Title}" Width="200"/>
-                                        <TextBlock FontSize="17" FontWeight="UltraBold" Text="{Binding Price}"/>
+                                        <TextBlock FontSize="{Binding ElementName=CactusListBox, Path=FontSize}" FontWeight="UltraBold" Text="{Binding Title}" Width="200"/>
+                                        <TextBlock FontSize="{Binding ElementName=CactusListBox, Path=FontSize}" FontWeight="UltraBold" Text="{Binding Price, StringFormat=\{0:N0\}}"/>
                                     </StackPanel>
                                 </DataTemplate>
                             </ListBox.ItemTemplate>
                         </ListBox>
                     </Border>
                     <Grid Grid.Column="1">
-                        
+                        <ListBox x:Name="CountListBox" ItemContainerStyle="{DynamicResource ListBoxItemStyle}"
+                                 MouseDoubleClick="InsertButton_Click"
+                                 FontSize="{Binding FontSize}" FontWeight="UltraBold" />
                     </Grid>
                 </Grid>
             </Border>
-            <Button Grid.Row="2"
-                Style="{StaticResource NormalButtonStyle}"
+            <Button x:Name="PrinterButton"
+                Click="PrinterButton_Click"
+                Grid.Row="2"
+                Style="{StaticResource PrintButtonStyle}"
                 ToolTip="인쇄하기">
                 <Viewbox>
                     <materialDesign:PackIcon Kind="Printer" />
                 </Viewbox>
             </Button>
-            
+
         </Grid>
     </Grid>
 </UserControl>

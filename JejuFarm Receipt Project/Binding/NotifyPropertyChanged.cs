@@ -3,18 +3,16 @@ using System.Runtime.CompilerServices;
 
 namespace JejuFarm_Receipt_Project.Binding
 {
-    public class NotifyPropertyChanged
+    public class NotifyPropertyChanged : INotifyPropertyChanged
     {
         #region PropertyChanged
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public void OnPropertyChanged(string name)
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(name));
-            }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
         #endregion
     }
+
 }

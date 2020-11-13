@@ -1,1 +1,8 @@
-WPF로 새롭게 리펙토링 + 디자인한 프로젝트입니다.
+Custom Binding
+
+BasketListView.Font
+CactusListBox.Font
+CountListBox.Font
+Version 2.001
+
+20201113 WPF
