@@ -69,14 +69,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_9210107188EF7501260B3F38B014DE88"
-        "OwnerKey" = "8:_29BA6A2270764D468ACD1040DE540C5A"
+        "MsmKey" = "8:_8DDE6B4413D841A3A4886B6CAEA48EDA"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9B3677BBC80E482095AAA0D7AEE53F16"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_9210107188EF7501260B3F38B014DE88"
+        "OwnerKey" = "8:_29BA6A2270764D468ACD1040DE540C5A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -407,6 +407,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8DDE6B4413D841A3A4886B6CAEA48EDA"
+            {
+            "SourcePath" = "8:..\\README.MD"
+            "TargetName" = "8:README.MD"
+            "Tag" = "8:"
+            "Folder" = "8:_946EABDD0FA04CF98739BF34D3F23716"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9210107188EF7501260B3F38B014DE88"
             {
             "AssemblyRegister" = "3:1"
@@ -436,26 +456,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9B3677BBC80E482095AAA0D7AEE53F16"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\README.md"
-            "TargetName" = "8:README.md"
-            "Tag" = "8:"
-            "Folder" = "8:_946EABDD0FA04CF98739BF34D3F23716"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9B5452E3FDD7B66D35C97169311C8FAF"

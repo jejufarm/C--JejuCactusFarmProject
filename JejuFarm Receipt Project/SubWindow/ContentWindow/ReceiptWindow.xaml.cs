@@ -113,7 +113,7 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow
             foreach (var item in BasketListModel.GetInstance())
                 ReceiptFormViewModel.GetInstance().List.Add(item);
 
-            //printer.Print(new PrinterFormWindow());
+            printer.Print(new PrinterFormWindow());
         }
 
     }

@@ -31,7 +31,7 @@ namespace IniSettings
             {
                 WriteProerty("ProgramSettings", "MAX_PRODUCT", "100");
                 WriteProerty("ProgramSettings", "LISTVIEW_FONTSIZE", "25");
-                WriteProerty("ProgramSettings", "LISTVIEW_FONTSIZE", "20");
+                WriteProerty("ProgramSettings", "LISTBOX_FONTSIZE", "20");
                 WriteProerty("ProgramSettings", "SHUT_DOWN", "1");
 
                 WriteProerty("ProgramSettings", "LISTVIEW_1_WIDTH", "8.0");

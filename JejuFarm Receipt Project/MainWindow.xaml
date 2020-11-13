@@ -10,6 +10,7 @@
         AllowsTransparency="False" ShowInTaskbar="False"
         mc:Ignorable="d"
         Closing="Window_Closing"
+        Topmost="True"
         Title="MainWindow" Height="450" Width="800">
     <Border CornerRadius="2.5" Background="White" BorderBrush="Black" BorderThickness="1.3">
         <Grid>
