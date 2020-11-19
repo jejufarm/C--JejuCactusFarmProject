@@ -18,10 +18,7 @@ namespace PrinterCore
 
         public void Print(Visual form)
         {
-            Dispatcher.Invoke(DispatcherPriority.Normal, new Action(delegate
-            {
-                print.PrintVisual(form, "제주농원");
-            }));
+            print.PrintVisual(form, "제주농원");
         }
 
     }
