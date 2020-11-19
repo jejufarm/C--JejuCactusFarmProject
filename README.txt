@@ -1,1 +1,0 @@
-Java-JejuCacutsFarmProject (AndroidStudio)와 연결되는 C# 블루투스 + 엑셀 영수증출력 프로그램입니다.

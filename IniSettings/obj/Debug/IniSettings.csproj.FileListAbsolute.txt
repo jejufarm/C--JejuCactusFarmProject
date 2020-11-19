@@ -1,0 +1,9 @@
+C:\Users\user\source\repos\JejuFarm Receipt Project\IniSettings\bin\Debug\IniSettings.dll
+C:\Users\user\source\repos\JejuFarm Receipt Project\IniSettings\bin\Debug\IniSettings.pdb
+C:\Users\user\source\repos\JejuFarm Receipt Project\IniSettings\bin\Debug\ProgramCore.dll
+C:\Users\user\source\repos\JejuFarm Receipt Project\IniSettings\bin\Debug\ProgramCore.pdb
+C:\Users\user\source\repos\JejuFarm Receipt Project\IniSettings\obj\Debug\IniSettings.csprojAssemblyReference.cache
+C:\Users\user\source\repos\JejuFarm Receipt Project\IniSettings\obj\Debug\IniSettings.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\JejuFarm Receipt Project\IniSettings\obj\Debug\IniSettings.csproj.CopyComplete
+C:\Users\user\source\repos\JejuFarm Receipt Project\IniSettings\obj\Debug\IniSettings.dll
+C:\Users\user\source\repos\JejuFarm Receipt Project\IniSettings\obj\Debug\IniSettings.pdb

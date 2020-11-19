@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\JejuFarm Receipt Project\BluetoothCore\bin\Debug\BluetoothCore.dll
+C:\Users\user\source\repos\JejuFarm Receipt Project\BluetoothCore\bin\Debug\BluetoothCore.pdb
+C:\Users\user\source\repos\JejuFarm Receipt Project\BluetoothCore\bin\Debug\InTheHand.Net.Personal.dll
+C:\Users\user\source\repos\JejuFarm Receipt Project\BluetoothCore\bin\Debug\InTheHand.Net.Personal.xml
+C:\Users\user\source\repos\JejuFarm Receipt Project\BluetoothCore\obj\Debug\BluetoothCore.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\JejuFarm Receipt Project\BluetoothCore\obj\Debug\BluetoothCore.csproj.CopyComplete
+C:\Users\user\source\repos\JejuFarm Receipt Project\BluetoothCore\obj\Debug\BluetoothCore.dll
+C:\Users\user\source\repos\JejuFarm Receipt Project\BluetoothCore\obj\Debug\BluetoothCore.pdb
+C:\Users\user\source\repos\JejuFarm Receipt Project\BluetoothCore\obj\Debug\BluetoothCore.csprojAssemblyReference.cache
+C:\Users\user\source\repos\JejuFarm Receipt Project\BluetoothCore\bin\Debug\ProgramCore.dll
+C:\Users\user\source\repos\JejuFarm Receipt Project\BluetoothCore\bin\Debug\ProgramCore.pdb

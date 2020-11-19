@@ -1,0 +1,668 @@
+﻿<UserControl x:Class="JejuFarm_Receipt_Project.PrinterFormWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:JejuFarm_Receipt_Project"
+             mc:Ignorable="d" 
+             MinHeight="755" MaxHeight="755"
+             MinWidth="530" MaxWidth="530"
+             d:DesignHeight="755" d:DesignWidth="530">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="26*"/>
+            </Grid.RowDefinitions>
+            <!-- 거래명세서 -->
+            <Border Grid.Row="0" BorderBrush="Black" BorderThickness="1">
+                <Viewbox>
+                    <TextBlock FontWeight="UltraBold" >거　래　명　세　서</TextBlock>
+                </Viewbox>
+            </Border>
+
+            <!-- 상호 및 정보 -->
+            <Border Grid.Row="2" BorderBrush="Black" BorderThickness="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <!-- 1번째 줄 -->
+                    <Border Grid.Row="0" BorderBrush="Black" BorderThickness="0,0,0,1">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="10.06565*"/>
+                                <ColumnDefinition Width="26.25821*"/>
+                                <ColumnDefinition Width="24.50765*"/>
+                                <ColumnDefinition Width="39.16849*"/>
+                            </Grid.ColumnDefinitions>
+                            <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,0">
+                                <Viewbox>
+                                    <TextBlock>상호</TextBlock>
+                                </Viewbox>
+                            </Border>
+
+                            <Border Grid.Column="1" BorderBrush="Black" BorderThickness="0,0,1,0">
+                                <Viewbox>
+                                    <TextBlock>제주농원</TextBlock>
+                                </Viewbox>
+                            </Border>
+
+                            <Border Grid.Column="2" BorderBrush="Black" BorderThickness="0,0,1,0">
+                                <Viewbox>
+                                    <TextBlock>성　　　명</TextBlock>
+                                </Viewbox>
+                            </Border>
+                            <Viewbox Grid.Column="3">
+                                <TextBlock>
+                                최창수 (인)
+                                </TextBlock>
+                            </Viewbox>
+                        </Grid>
+                    </Border>
+
+                    <!-- 2번째 줄 -->
+                    <Border Grid.Row="1" BorderBrush="Black" BorderThickness="0,0,0,1">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="36.32385*"/>
+                                <ColumnDefinition Width="24.50765*"/>
+                                <ColumnDefinition Width="39.16849*"/>
+                            </Grid.ColumnDefinitions>
+                            <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,0">
+                                <Viewbox>
+                                    <TextBlock>010-3399-7137</TextBlock>
+                                </Viewbox>
+                            </Border>
+                            <Border Grid.Column="1" BorderBrush="Black" BorderThickness="0,0,1,0">
+                                <Viewbox>
+                                    <TextBlock>계　　　좌</TextBlock>
+                                </Viewbox>
+                            </Border>
+                            <Viewbox Grid.Column="2">
+                                <TextBlock>
+                                농협 217-05252-005911
+                                </TextBlock>
+                            </Viewbox>
+                        </Grid>
+                    </Border>
+
+                    <!-- 3번째 줄 -->
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="36.32385*"/>
+                            <ColumnDefinition Width="63.67614*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,0">
+                            <Viewbox>
+                                <TextBlock>작 성 년 월 일</TextBlock>
+                            </Viewbox>
+                        </Border>
+                        <Viewbox Grid.Column="1">
+                            <TextBlock x:Name="TimeText" Text="{Binding Time}"/>
+                        </Viewbox>
+                    </Grid>
+                </Grid>
+            </Border>
+
+
+            <!-- 데이터 -->
+            <Grid Grid.Row="4">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="22*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <!-- 총 수량 액수 금액 -->
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="36.32386*"/>
+                        <ColumnDefinition Width="10.06565*"/>
+                        <ColumnDefinition Width="14.44201*"/>
+                        <ColumnDefinition Width="39.16849*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,0,0">
+                        <Viewbox>
+                            <TextBlock>
+
+                            </TextBlock>
+                        </Viewbox>
+                    </Border>
+
+                    <Border Grid.Column="1" BorderBrush="Black" BorderThickness="1,1,1,0">
+                        <Viewbox>
+                            <TextBlock x:Name="CountText" Text="{Binding Count}" />
+                            <!-- Binding -->
+                        </Viewbox>
+                    </Border>
+
+                    <Border Grid.Column="2" BorderBrush="Black" BorderThickness="0,1,1,0">
+                        <Viewbox>
+                            <TextBlock Text="합　계"/>
+                        </Viewbox>
+                    </Border>
+                    <Border Grid.Column="3" BorderBrush="Black" BorderThickness="0,1,1,0">
+                        <Viewbox>
+                            <TextBlock x:Name="SumText1" Text="{Binding Total, StringFormat=\{0:N0\} 원}"/>
+                            <!-- Binding -->
+                        </Viewbox>
+                    </Border>
+
+                </Grid>
+
+                <!-- 해더 -->
+                <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1,1,1,0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10.06565*"/>
+                            <ColumnDefinition Width="26.25821*"/>
+                            <ColumnDefinition Width="10.06565*"/>
+                            <ColumnDefinition Width="14.44201*"/>
+                            <ColumnDefinition Width="17.72429*"/>
+                            <ColumnDefinition Width="21.4442*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,0">
+                            <Viewbox>
+                                <TextBlock>
+                                번호
+                                </TextBlock>
+                            </Viewbox>
+                        </Border>
+
+                        <Border Grid.Column="1" BorderBrush="Black" BorderThickness="0,0,1,0">
+                            <Viewbox>
+                                <TextBlock>
+                                품명
+                                </TextBlock>
+                            </Viewbox>
+                        </Border>
+
+                        <Border Grid.Column="2" BorderBrush="Black" BorderThickness="0,0,1,0">
+                            <Viewbox>
+                                <TextBlock>
+                                수량
+                                </TextBlock>
+                            </Viewbox>
+                        </Border>
+
+                        <Border Grid.Column="3" BorderBrush="Black" BorderThickness="0,0,1,0">
+                            <Viewbox>
+                                <TextBlock>
+                                단가
+                                </TextBlock>
+                            </Viewbox>
+                        </Border>
+                        <Border Grid.Column="4" BorderBrush="Black" BorderThickness="0,0,1,0">
+                            <Viewbox>
+                                <TextBlock>
+                                가격
+                                </TextBlock>
+                            </Viewbox>
+                        </Border>
+                        <Viewbox Grid.Column="5">
+                            <TextBlock>
+                                비고
+                            </TextBlock>
+                        </Viewbox>
+                    </Grid>
+
+                </Border>
+
+                <!-- 동적 데이터 -->
+                <Border Grid.Row="2" BorderBrush="Black" BorderThickness="1">
+                    <Grid x:Name="TextPage">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10.06565*"/>
+                            <ColumnDefinition Width="26.25821*"/>
+                            <ColumnDefinition Width="10.06565*"/>
+                            <ColumnDefinition Width="14.44201*"/>
+                            <ColumnDefinition Width="17.72429*"/>
+                            <ColumnDefinition Width="21.4442*"/>
+                            <!--<ColumnDefinition Width="17.72429*"/>
+                        <ColumnDefinition Width="21.4442*"/>-->
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Row="0" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="1" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="2" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="3" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="4" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="5" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="6" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="7" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="8" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="9" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="10" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="11" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="12" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="13" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="14" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="15" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="16" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="17" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="18" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Row="19" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0, 0, 0, 1"/>
+                        <Border Grid.Column="0" Grid.RowSpan="21" BorderBrush="Black" BorderThickness="0,0,1,0"/>
+                        <Border Grid.Column="1" Grid.RowSpan="21" BorderBrush="Black" BorderThickness="0,0,1,0"/>
+                        <Border Grid.Column="2" Grid.RowSpan="21" BorderBrush="Black" BorderThickness="0,0,1,0"/>
+                        <Border Grid.Column="3" Grid.RowSpan="21" BorderBrush="Black" BorderThickness="0,0,1,0"/>
+                        <Border Grid.Column="4" Grid.RowSpan="21" BorderBrush="Black" BorderThickness="0,0,1,0"/>
+
+                        <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ번호ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+                        <Viewbox Grid.Row="0" Grid.Column="0">
+                            <TextBlock x:Name="IndexText0" Text="{Binding List[0].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="1" Grid.Column="0">
+                            <TextBlock x:Name="IndexText1" Text="{Binding List[1].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="2" Grid.Column="0">
+                            <TextBlock x:Name="IndexText2"  Text="{Binding List[2].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="3" Grid.Column="0">
+                            <TextBlock x:Name="IndexText3"  Text="{Binding List[3].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="4" Grid.Column="0">
+                            <TextBlock x:Name="IndexText4"  Text="{Binding List[4].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="5" Grid.Column="0">
+                            <TextBlock x:Name="IndexText5"  Text="{Binding List[5].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="6" Grid.Column="0">
+                            <TextBlock x:Name="IndexText6"  Text="{Binding List[6].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="7" Grid.Column="0">
+                            <TextBlock x:Name="IndexText7"  Text="{Binding List[7].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="8" Grid.Column="0">
+                            <TextBlock x:Name="IndexText8"  Text="{Binding List[8].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="9" Grid.Column="0">
+                            <TextBlock x:Name="IndexText9"  Text="{Binding List[9].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="10" Grid.Column="0">
+                            <TextBlock x:Name="IndexText10"  Text="{Binding List[10].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="11" Grid.Column="0">
+                            <TextBlock x:Name="IndexText11"  Text="{Binding List[11].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="12" Grid.Column="0">
+                            <TextBlock x:Name="IndexText12"  Text="{Binding List[12].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="13" Grid.Column="0">
+                            <TextBlock x:Name="IndexText13"  Text="{Binding List[13].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="14" Grid.Column="0">
+                            <TextBlock x:Name="IndexText14"  Text="{Binding List[14].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="15" Grid.Column="0">
+                            <TextBlock x:Name="IndexText15"  Text="{Binding List[15].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="16" Grid.Column="0">
+                            <TextBlock x:Name="IndexText16"  Text="{Binding List[16].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="17" Grid.Column="0">
+                            <TextBlock x:Name="IndexText17"  Text="{Binding List[17].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="18" Grid.Column="0">
+                            <TextBlock x:Name="IndexText18"  Text="{Binding List[18].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="19" Grid.Column="0">
+                            <TextBlock x:Name="IndexText19"  Text="{Binding List[19].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="20" Grid.Column="0">
+                            <TextBlock x:Name="IndexText20"  Text="{Binding List[20].Index}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="21" Grid.Column="0">
+                            <TextBlock x:Name="IndexText21"  Text="{Binding List[21].Index}"/>
+                        </Viewbox>
+
+                        <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ품명ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+                        <Viewbox Grid.Row="0" Grid.Column="1">
+                            <TextBlock x:Name="TitleText0" Text="{Binding List[0].Title}"/>
+                        </Viewbox>                                               
+                        <Viewbox Grid.Row="1" Grid.Column="1">                   
+                            <TextBlock x:Name="TitleText1" Text="{Binding List[1].Title}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="2" Grid.Column="1">
+                            <TextBlock x:Name="TitleText2"  Text="{Binding List[2].Title}"/>
+                        </Viewbox>                                                
+                        <Viewbox Grid.Row="3" Grid.Column="1">                    
+                            <TextBlock x:Name="TitleText3"  Text="{Binding List[3].Title}"/>
+                        </Viewbox>                                                
+                        <Viewbox Grid.Row="4" Grid.Column="1">                    
+                            <TextBlock x:Name="TitleText4"  Text="{Binding List[4].Title}"/>
+                        </Viewbox>                                               
+                        <Viewbox Grid.Row="5" Grid.Column="1">                   
+                            <TextBlock x:Name="TitleText5"  Text="{Binding List[5].Title}"/>
+                        </Viewbox>                                                
+                        <Viewbox Grid.Row="6" Grid.Column="1">                    
+                            <TextBlock x:Name="TitleText6"  Text="{Binding List[6].Title}"/>
+                        </Viewbox>                                                
+                        <Viewbox Grid.Row="7" Grid.Column="1">                    
+                            <TextBlock x:Name="TitleText7"  Text="{Binding List[7].Title}"/>
+                        </Viewbox>                                                 
+                        <Viewbox Grid.Row="8" Grid.Column="1">                     
+                            <TextBlock x:Name="TitleText8"  Text="{Binding List[8].Title}"/>
+                        </Viewbox>                                               
+                        <Viewbox Grid.Row="9" Grid.Column="1">                   
+                            <TextBlock x:Name="TitleText9"  Text="{Binding List[9].Title}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="10" Grid.Column="1">
+                            <TextBlock x:Name="TitleText10"  Text="{Binding List[10].Title}"/>
+                        </Viewbox>                                                   
+                        <Viewbox Grid.Row="11" Grid.Column="1">                      
+                            <TextBlock x:Name="TitleText11"  Text="{Binding List[11].Title}"/>
+                        </Viewbox>                                                  
+                        <Viewbox Grid.Row="12" Grid.Column="1">                     
+                            <TextBlock x:Name="TitleText12"  Text="{Binding List[12].Title}"/>
+                        </Viewbox>                                                  
+                        <Viewbox Grid.Row="13" Grid.Column="1">                     
+                            <TextBlock x:Name="TitleText13"  Text="{Binding List[13].Title}"/>
+                        </Viewbox>                                                  
+                        <Viewbox Grid.Row="14" Grid.Column="1">                     
+                            <TextBlock x:Name="TitleText14"  Text="{Binding List[14].Title}"/>
+                        </Viewbox>                                                   
+                        <Viewbox Grid.Row="15" Grid.Column="1">                      
+                            <TextBlock x:Name="TitleText15"  Text="{Binding List[15].Title}"/>
+                        </Viewbox>                                                 
+                        <Viewbox Grid.Row="16" Grid.Column="1">                    
+                            <TextBlock x:Name="TitleText16"  Text="{Binding List[16].Title}"/>
+                        </Viewbox>                                                  
+                        <Viewbox Grid.Row="17" Grid.Column="1">                     
+                            <TextBlock x:Name="TitleText17"  Text="{Binding List[17].Title}"/>
+                        </Viewbox>                                                   
+                        <Viewbox Grid.Row="18" Grid.Column="1">                      
+                            <TextBlock x:Name="TitleText18"  Text="{Binding List[18].Title}"/>
+                        </Viewbox>                                                 
+                        <Viewbox Grid.Row="19" Grid.Column="1">                    
+                            <TextBlock x:Name="TitleText19"  Text="{Binding List[19].Title}"/>
+                        </Viewbox>                                                  
+                        <Viewbox Grid.Row="20" Grid.Column="1">                     
+                            <TextBlock x:Name="TitleText20"  Text="{Binding List[20].Title}"/>
+                        </Viewbox>                                                  
+                        <Viewbox Grid.Row="21" Grid.Column="1">                     
+                            <TextBlock x:Name="TitleText21"  Text="{Binding List[21].Title}"/>
+                        </Viewbox>
+                        
+                        <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ수량ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+                        <Viewbox Grid.Row="0" Grid.Column="2">
+                            <TextBlock x:Name="CountText0"  Text="{ Binding List[0].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="1" Grid.Column="2">
+                            <TextBlock x:Name="CountText1"  Text="{ Binding List[1].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="2" Grid.Column="2">
+                            <TextBlock x:Name="CountText2"  Text="{ Binding List[2].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="3" Grid.Column="2">
+                            <TextBlock x:Name="CountText3"  Text="{ Binding List[3].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="4" Grid.Column="2">
+                            <TextBlock x:Name="CountText4"  Text="{ Binding List[4].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="5" Grid.Column="2">
+                            <TextBlock x:Name="CountText5"  Text="{ Binding List[5].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="6" Grid.Column="2">
+                            <TextBlock x:Name="CountText6"  Text="{ Binding List[6].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="7" Grid.Column="2">
+                            <TextBlock x:Name="CountText7"  Text="{ Binding List[7].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="8" Grid.Column="2">
+                            <TextBlock x:Name="CountText8"  Text="{ Binding List[8].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="9" Grid.Column="2">
+                            <TextBlock x:Name="CountText9"  Text="{ Binding List[9].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="10" Grid.Column="2">
+                            <TextBlock x:Name="CountText10"  Text="{ Binding List[10].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="11" Grid.Column="2">
+                            <TextBlock x:Name="CountText11"  Text="{ Binding List[11].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="12" Grid.Column="2">
+                            <TextBlock x:Name="CountText12"  Text="{ Binding List[12].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="13" Grid.Column="2">
+                            <TextBlock x:Name="CountText13"  Text="{ Binding List[13].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="14" Grid.Column="2">
+                            <TextBlock x:Name="CountText14"  Text="{ Binding List[14].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="15" Grid.Column="2">
+                            <TextBlock x:Name="CountText15"  Text="{ Binding List[15].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="16" Grid.Column="2">
+                            <TextBlock x:Name="CountText16"  Text="{ Binding List[16].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="17" Grid.Column="2">
+                            <TextBlock x:Name="CountText17"  Text="{ Binding List[17].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="18" Grid.Column="2">
+                            <TextBlock x:Name="CountText18"  Text="{ Binding List[18].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="19" Grid.Column="2">
+                            <TextBlock x:Name="CountText19"  Text="{ Binding List[19].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="20" Grid.Column="2">
+                            <TextBlock x:Name="CountText20"  Text="{ Binding List[20].Count}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="21" Grid.Column="2">
+                            <TextBlock x:Name="CountText21"  Text="{ Binding List[21].Count}"/>
+                        </Viewbox>
+
+                        <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ단가ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+                        <Viewbox Grid.Row="0" Grid.Column="3">
+                            <TextBlock x:Name="PriceText0"  Text="{ Binding List[0].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="1" Grid.Column="3">
+                            <TextBlock x:Name="PriceText1"  Text="{ Binding List[1].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="2" Grid.Column="3">
+                            <TextBlock x:Name="PriceText2"  Text="{ Binding List[2].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="3" Grid.Column="3">
+                            <TextBlock x:Name="PriceText3"  Text="{ Binding List[3].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="4" Grid.Column="3">
+                            <TextBlock x:Name="PriceText4"  Text="{ Binding List[4].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="5" Grid.Column="3">
+                            <TextBlock x:Name="PriceText5"  Text="{ Binding List[5].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="6" Grid.Column="3">
+                            <TextBlock x:Name="PriceText6"  Text="{ Binding List[6].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="7" Grid.Column="3">
+                            <TextBlock x:Name="PriceText7"  Text="{ Binding List[7].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="8" Grid.Column="3">
+                            <TextBlock x:Name="PriceText8"  Text="{ Binding List[8].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="9" Grid.Column="3">
+                            <TextBlock x:Name="PriceText9"  Text="{ Binding List[9].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="10" Grid.Column="3">
+                            <TextBlock x:Name="PriceText10"  Text="{ Binding List[10].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="11" Grid.Column="3">
+                            <TextBlock x:Name="PriceText11"  Text="{ Binding List[11].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="12" Grid.Column="3">
+                            <TextBlock x:Name="PriceText12"  Text="{ Binding List[12].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="13" Grid.Column="3">
+                            <TextBlock x:Name="PriceText13"  Text="{ Binding List[13].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="14" Grid.Column="3">
+                            <TextBlock x:Name="PriceText14"  Text="{ Binding List[14].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="15" Grid.Column="3">
+                            <TextBlock x:Name="PriceText15"  Text="{ Binding List[15].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="16" Grid.Column="3">
+                            <TextBlock x:Name="PriceText16"  Text="{ Binding List[16].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="17" Grid.Column="3">
+                            <TextBlock x:Name="PriceText17"  Text="{ Binding List[17].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="18" Grid.Column="3">
+                            <TextBlock x:Name="PriceText18"  Text="{ Binding List[18].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="19" Grid.Column="3">
+                            <TextBlock x:Name="PriceText19"  Text="{ Binding List[19].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="20" Grid.Column="3">
+                            <TextBlock x:Name="PriceText20"  Text="{ Binding List[20].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="21" Grid.Column="3">
+                            <TextBlock x:Name="PriceText21"  Text="{ Binding List[21].Price, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ가격ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+                        <Viewbox Grid.Row="0" Grid.Column="4">
+                            <TextBlock x:Name="TotalText0"  Text="{ Binding List[0].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="1" Grid.Column="4">
+                            <TextBlock x:Name="TotalText1"  Text="{ Binding List[1].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="2" Grid.Column="4">
+                            <TextBlock x:Name="TotalText2"  Text="{ Binding List[2].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="3" Grid.Column="4">
+                            <TextBlock x:Name="TotalText3"  Text="{ Binding List[3].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="4" Grid.Column="4">
+                            <TextBlock x:Name="TotalText4"  Text="{ Binding List[4].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="5" Grid.Column="4">
+                            <TextBlock x:Name="TotalText5"  Text="{ Binding List[5].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="6" Grid.Column="4">
+                            <TextBlock x:Name="TotalText6"  Text="{ Binding List[6].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="7" Grid.Column="4">
+                            <TextBlock x:Name="TotalText7"  Text="{ Binding List[7].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="8" Grid.Column="4">
+                            <TextBlock x:Name="TotalText8"  Text="{ Binding List[8].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="9" Grid.Column="4">
+                            <TextBlock x:Name="TotalText9"  Text="{ Binding List[9].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="10" Grid.Column="4">
+                            <TextBlock x:Name="TotalText10"  Text="{ Binding List[10].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="11" Grid.Column="4">
+                            <TextBlock x:Name="TotalText11"  Text="{ Binding List[11].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="12" Grid.Column="4">
+                            <TextBlock x:Name="TotalText12"  Text="{ Binding List[12].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="13" Grid.Column="4">
+                            <TextBlock x:Name="TotalText13"  Text="{ Binding List[13].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="14" Grid.Column="4">
+                            <TextBlock x:Name="TotalText14"  Text="{ Binding List[14].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="15" Grid.Column="4">
+                            <TextBlock x:Name="TotalText15"  Text="{ Binding List[15].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="16" Grid.Column="4">
+                            <TextBlock x:Name="TotalText16"  Text="{ Binding List[16].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="17" Grid.Column="4">
+                            <TextBlock x:Name="TotalText17"  Text="{ Binding List[17].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="18" Grid.Column="4">
+                            <TextBlock x:Name="TotalText18"  Text="{ Binding List[18].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="19" Grid.Column="4">
+                            <TextBlock x:Name="TotalText19"  Text="{ Binding List[19].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="20" Grid.Column="4">
+                            <TextBlock x:Name="TotalText20"  Text="{ Binding List[20].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                        <Viewbox Grid.Row="21" Grid.Column="4">
+                            <TextBlock x:Name="TotalText21"  Text="{ Binding List[21].Total, StringFormat=\{0:N0\}}"/>
+                        </Viewbox>
+                    </Grid>
+                </Border>
+
+                <!-- 주소 -->
+                <Border Grid.Row="3" BorderBrush="Black" BorderThickness="1,0,1,1">
+                    <Viewbox>
+                        <TextBlock>
+                        경기도 고양시 덕양구 서오릉로 799
+                        </TextBlock>
+                    </Viewbox>
+                </Border>
+
+                <!-- 주문확인 -->
+                <Border Grid.Row="4" BorderBrush="Black" BorderThickness="1,0,1,1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10.06565*"/>
+                            <ColumnDefinition Width="26.25821*"/>
+                            <ColumnDefinition Width="10.06565*"/>
+                            <ColumnDefinition Width="53.61050*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,0"/>
+
+                        <Border Grid.Column="1" BorderBrush="Black" BorderThickness="0,0,1,0">
+                            <Viewbox>
+                                <TextBlock>
+                                합　　　　계
+                                </TextBlock>
+                            </Viewbox>
+                        </Border>
+
+                        <Border Grid.Column="2" BorderBrush="Black" BorderThickness="0,0,1,0">
+                            <Viewbox>
+                                <TextBlock>
+                                \
+                                </TextBlock>
+                            </Viewbox>
+                        </Border>
+
+                        <Viewbox Grid.Column="3">
+                            <TextBlock x:Name="SumText2" Text="{Binding Total, StringFormat=\{0:N0\} 원}"/>
+                            <!-- Binding -->
+                        </Viewbox>
+
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

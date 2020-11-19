@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow.CactusSettingWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <Grid Margin="0,10,0,10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,0">
+            <ListView x:Name="CactusListView" IsSynchronizedWithCurrentItem="True"
+                      MouseRightButtonUp="CactusListView_MouseRightButtonUp"
+                      
+                      SizeChanged="CactusListView_SizeChanged" MouseDoubleClick="CactusListView_MouseDoubleClick"
+                      TextElement.FontSize="40" TextElement.FontWeight="Bold">
+
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="HorizontalAlignment" Value="Left"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="Background" Value="Black"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </ListView.ItemContainerStyle>
+
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn TextBlock.TextAlignment="Center" DisplayMemberBinding="{Binding Title}" Header="제품"/>
+                        <GridViewColumn TextBlock.TextAlignment="Center" DisplayMemberBinding="{Binding Price, StringFormat=\{0:N0\}}" Header="단가"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Border>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBox x:Name="TitleText" Grid.Row="0"
+                KeyDown="TitleText_KeyDown"
+                materialDesign:HintAssist.Hint="제품"
+                materialDesign:TextFieldAssist.TextBoxViewMargin="1 0 1 0"
+                materialDesign:HintAssist.FloatingScale="0.3"
+                Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                FontSize="40" />
+
+            <TextBox x:Name="PriceText" Grid.Row="1"
+                KeyDown="PriceText_KeyDown"
+                materialDesign:HintAssist.Hint="단가"
+                materialDesign:TextFieldAssist.TextBoxViewMargin="1 0 1 0"
+                materialDesign:HintAssist.FloatingScale="0.3"
+                Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                FontSize="40" />
+
+            <Button Grid.Row="2"
+                Click="Button_Click"
+                 MouseRightButtonDown="Button_MouseRightButtonDown"
+                Style="{StaticResource BasedButtonStyle}"
+                ToolTip="추가 및 수정/삭제">
+                <Viewbox>
+                    <TextBlock x:Name="ButtonText" FontWeight="UltraBlack" Text="추가"/>
+                </Viewbox>
+            </Button>
+
+        </Grid>
+    </Grid>
+</UserControl>
