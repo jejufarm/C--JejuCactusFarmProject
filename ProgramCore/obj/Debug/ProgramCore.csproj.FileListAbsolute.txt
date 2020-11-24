@@ -3,4 +3,3 @@ C:\Users\user\source\repos\JejuFarm Receipt Project\ProgramCore\bin\Debug\Progra
 C:\Users\user\source\repos\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.dll
 C:\Users\user\source\repos\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.pdb
-C:\Users\user\source\repos\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.csprojAssemblyReference.cache

@@ -69,6 +69,7 @@ namespace JejuFarm_Receipt_Project
 
         private void RecvBluetooth(string msg)
         {
+
             Application.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(delegate
             {
                 if (msg == "bluetooth_connect")
