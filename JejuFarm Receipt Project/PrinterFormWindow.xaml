@@ -17,6 +17,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="26*"/>
             </Grid.RowDefinitions>
+
             <!-- 거래명세서 -->
             <Border Grid.Row="0" BorderBrush="Black" BorderThickness="1">
                 <Viewbox>
@@ -109,7 +110,6 @@
                     </Grid>
                 </Grid>
             </Border>
-
 
             <!-- 데이터 -->
             <Grid Grid.Row="4">
