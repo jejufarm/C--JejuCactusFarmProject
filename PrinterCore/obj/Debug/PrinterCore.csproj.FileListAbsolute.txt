@@ -9,3 +9,14 @@ C:\Users\user\source\repos\JejuFarm Receipt Project\PrinterCore\obj\Debug\Printe
 C:\Users\user\source\repos\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.csproj.CopyComplete
 C:\Users\user\source\repos\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.dll
 C:\Users\user\source\repos\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.pdb
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\PrinterCore\bin\Debug\PrinterCore.dll
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\PrinterCore\bin\Debug\PrinterCore.pdb
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\PrinterCore\bin\Debug\IniSettings.dll
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\PrinterCore\bin\Debug\ProgramCore.dll
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\PrinterCore\bin\Debug\IniSettings.pdb
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\PrinterCore\bin\Debug\ProgramCore.pdb
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.csprojAssemblyReference.cache
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.csproj.CopyComplete
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.dll
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.pdb
