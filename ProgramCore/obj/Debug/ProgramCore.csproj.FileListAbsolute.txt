@@ -3,3 +3,8 @@ C:\Users\user\source\repos\JejuFarm Receipt Project\ProgramCore\bin\Debug\Progra
 C:\Users\user\source\repos\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.dll
 C:\Users\user\source\repos\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.pdb
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\ProgramCore\bin\Debug\ProgramCore.dll
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\ProgramCore\bin\Debug\ProgramCore.pdb
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.dll
+C:\Users\user\Desktop\private_project\src\C#\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.pdb
