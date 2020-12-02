@@ -16,7 +16,8 @@
         
         <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,0">
             <ListView x:Name="CactusListView" IsSynchronizedWithCurrentItem="True"
-                PreviewMouseUp="CactusListView_MouseLeftButtonUp"
+                
+                MouseRightButtonUp="CactusListView_MouseRightUp"
                 SizeChanged="CactusListView_SizeChanged" MouseDoubleClick="CactusListView_MouseDoubleClick"
                 TextElement.FontSize="40" TextElement.FontWeight="Bold">
 

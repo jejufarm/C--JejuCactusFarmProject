@@ -188,6 +188,14 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
             return null;
         }
 
+        private void CactusListView_MouseRightUp(object sender, MouseButtonEventArgs e)
+        {
+            TitleText.Text = "";
+            PriceText.Text = "";
+            CactusListView.SelectedIndex = -1;
+            selectedIndex = -1;
+        }
+
         #endregion
 
         //private void CactusListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
