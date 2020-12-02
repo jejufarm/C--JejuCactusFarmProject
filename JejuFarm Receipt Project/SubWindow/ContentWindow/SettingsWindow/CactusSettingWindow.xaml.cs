@@ -58,7 +58,7 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
                     if (CacutsListBoxModel.UpdateItem(selectedIndex, TitleText.Text, Convert.ToInt32(PriceText.Text)))
                     {
                         var item = CacutsListBoxModel.GetInstance()[selectedIndex];
-                        ini.WriteProerty("CactusList", item.Index.ToString(), item.Title + " " + item.Price);
+                        ini.WriteProerty("CactusList", "Cactus" + item.Index.ToString(), item.Title + "||" + item.Price);
                         CactusListView.SelectedItem = null;
                         TitleText.Text = "";
                         PriceText.Text = "";
@@ -76,7 +76,7 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
                 if (able())
                 {
                     int key = CacutsListBoxModel.InsertItem(TitleText.Text, Convert.ToInt32(PriceText.Text));
-                    ini.WriteProerty("CactusList", "Cactus" + key, TitleText.Text + " " + Convert.ToInt32(PriceText.Text));
+                    ini.WriteProerty("CactusList", "Cactus" + key, TitleText.Text + "||" + Convert.ToInt32(PriceText.Text));
                     CactusListView.SelectedItem = null;
                     TitleText.Text = "";
                     PriceText.Text = "";
@@ -99,7 +99,7 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
                     if (item.Index > key)
                     {
                         item.Index -= 1;
-                        ini.WriteProerty("CactusList", "Cactus" + item.Index, item.Title + " " + item.Price);
+                        ini.WriteProerty("CactusList", "Cactus" + item.Index, item.Title + "||" + item.Price);
                     }
 
                 ini.WriteProerty("CactusList", "Cactus" + CacutsListBoxModel.GetInstance().Count, null);
