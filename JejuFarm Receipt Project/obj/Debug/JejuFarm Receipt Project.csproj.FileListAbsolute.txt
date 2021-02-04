@@ -182,4 +182,3 @@ F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\SQLiteComponent.pdb
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\ProgramServices.dll
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\ProgramServices.pdb
-F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\System.Data.SQLite.dll

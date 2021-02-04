@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_0ABA5DD476C749268B0C60FB552781DC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_152304D3098615D120A6DCD2A09441D8"
         "OwnerKey" = "8:_6F138615B8FD3BDF0327CE9062BDFD94"
         "MsmSig" = "8:_UNDEFINED"
@@ -28,7 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_152304D3098615D120A6DCD2A09441D8"
-        "OwnerKey" = "8:_4A301D980227411198231EC4CF103CB4"
+        "OwnerKey" = "8:_BCEB2C02A49943028B79B360285C73AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -45,44 +51,26 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_31AB816C87D847EDBB96C458DB6EE56C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_36A1232C32EAF8FE071C177ADA12A23C"
-        "OwnerKey" = "8:_4A301D980227411198231EC4CF103CB4"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3DFB9AC96AD14E2C8C0291AFDFB5968E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4A301D980227411198231EC4CF103CB4"
-        "OwnerKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_BCEB2C02A49943028B79B360285C73AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_6F138615B8FD3BDF0327CE9062BDFD94"
-        "OwnerKey" = "8:_4A301D980227411198231EC4CF103CB4"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_702628B65252B38565D5B13A172DF479"
-        "OwnerKey" = "8:_4A301D980227411198231EC4CF103CB4"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_702628B65252B38565D5B13A172DF479"
-        "OwnerKey" = "8:_7218B9E79B1EFB8874E5528DE7B7E207"
+        "OwnerKey" = "8:_BCEB2C02A49943028B79B360285C73AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_717D5CF881EE0566A9A306EF27FC371F"
-        "OwnerKey" = "8:_4A301D980227411198231EC4CF103CB4"
+        "OwnerKey" = "8:_BCEB2C02A49943028B79B360285C73AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -94,7 +82,7 @@
         "Entry"
         {
         "MsmKey" = "8:_7218B9E79B1EFB8874E5528DE7B7E207"
-        "OwnerKey" = "8:_4A301D980227411198231EC4CF103CB4"
+        "OwnerKey" = "8:_BCEB2C02A49943028B79B360285C73AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -105,26 +93,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_9B5452E3FDD7B66D35C97169311C8FAF"
-        "OwnerKey" = "8:_4A301D980227411198231EC4CF103CB4"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A3BA0CB5B71B4368BA0EF595C51FADD1"
+        "MsmKey" = "8:_9A962F226DB548549ABFDE0223112DD2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
+        "MsmKey" = "8:_9B5452E3FDD7B66D35C97169311C8FAF"
+        "OwnerKey" = "8:_BCEB2C02A49943028B79B360285C73AB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_AA44CBBCAC6444B6EBA2B9252F84C282"
-        "OwnerKey" = "8:_4A301D980227411198231EC4CF103CB4"
+        "OwnerKey" = "8:_BCEB2C02A49943028B79B360285C73AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_ACA9E7FE8DA443A7AE5D15CBF6B75707"
-        "OwnerKey" = "8:_4A301D980227411198231EC4CF103CB4"
+        "OwnerKey" = "8:_BCEB2C02A49943028B79B360285C73AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -141,7 +129,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C2E33D1FC5964F6785C5CF2B9ACE6A7B"
+        "MsmKey" = "8:_BCEB2C02A49943028B79B360285C73AB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -154,7 +142,7 @@
         "Entry"
         {
         "MsmKey" = "8:_D23DF4B8F69364225D7D1C71690B8EDC"
-        "OwnerKey" = "8:_4A301D980227411198231EC4CF103CB4"
+        "OwnerKey" = "8:_BCEB2C02A49943028B79B360285C73AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -178,7 +166,7 @@
         "Entry"
         {
         "MsmKey" = "8:_E4D8263A982ED7A66FF743ABF78E347A"
-        "OwnerKey" = "8:_4A301D980227411198231EC4CF103CB4"
+        "OwnerKey" = "8:_BCEB2C02A49943028B79B360285C73AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -190,7 +178,7 @@
         "Entry"
         {
         "MsmKey" = "8:_E5B2A965A4FE048AB12D4E7428D14FCA"
-        "OwnerKey" = "8:_4A301D980227411198231EC4CF103CB4"
+        "OwnerKey" = "8:_BCEB2C02A49943028B79B360285C73AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -202,13 +190,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C2E33D1FC5964F6785C5CF2B9ACE6A7B"
+        "OwnerKey" = "8:_2ADEBAC985EE5B24D1E4845426DA8867"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4A301D980227411198231EC4CF103CB4"
+        "OwnerKey" = "8:_31AB816C87D847EDBB96C458DB6EE56C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_BCEB2C02A49943028B79B360285C73AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -233,12 +227,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_ACA9E7FE8DA443A7AE5D15CBF6B75707"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_702628B65252B38565D5B13A172DF479"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -293,12 +281,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_D4A260126DD09B3CCA9F8DE6F8A16215"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2ADEBAC985EE5B24D1E4845426DA8867"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -396,6 +378,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0ABA5DD476C749268B0C60FB552781DC"
+            {
+            "SourcePath" = "8:..\\JejuFarm Receipt Project\\bin\\Debug\\x86\\SQLite.Interop.dll"
+            "TargetName" = "8:SQLite.Interop.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_5F440C4206B14082B4F4D35852CFA8AA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_152304D3098615D120A6DCD2A09441D8"
             {
             "AssemblyRegister" = "3:1"
@@ -458,6 +460,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_31AB816C87D847EDBB96C458DB6EE56C"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Data.SQLite, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_31AB816C87D847EDBB96C458DB6EE56C"
+                    {
+                    "Name" = "8:System.Data.SQLite.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\lib\\System.Data.SQLite.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_BF30C4A46DA7441BA0E099BA1ED208D5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_36A1232C32EAF8FE071C177ADA12A23C"
             {
             "AssemblyRegister" = "3:1"
@@ -489,26 +522,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3DFB9AC96AD14E2C8C0291AFDFB5968E"
-            {
-            "SourcePath" = "8:..\\JejuFarm Receipt Project\\bin\\Debug\\x86\\SQLite.Interop.dll"
-            "TargetName" = "8:SQLite.Interop.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_39FAAF8B076B417ABE286111B8D7B5CE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6F138615B8FD3BDF0327CE9062BDFD94"
             {
             "AssemblyRegister" = "3:1"
@@ -523,37 +536,6 @@
                     }
                 }
             "SourcePath" = "8:BluetoothCore.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_BF30C4A46DA7441BA0E099BA1ED208D5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_702628B65252B38565D5B13A172DF479"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Data.SQLite, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_702628B65252B38565D5B13A172DF479"
-                    {
-                    "Name" = "8:System.Data.SQLite.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Data.SQLite.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_BF30C4A46DA7441BA0E099BA1ED208D5"
@@ -653,6 +635,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9A962F226DB548549ABFDE0223112DD2"
+            {
+            "SourcePath" = "8:..\\JejuFarm Receipt Project\\Properties\\desert_117969.ico"
+            "TargetName" = "8:desert_117969.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_BF30C4A46DA7441BA0E099BA1ED208D5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9B5452E3FDD7B66D35C97169311C8FAF"
             {
             "AssemblyRegister" = "3:1"
@@ -682,26 +684,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A3BA0CB5B71B4368BA0EF595C51FADD1"
-            {
-            "SourcePath" = "8:..\\JejuFarm Receipt Project\\Properties\\desert_117969.ico"
-            "TargetName" = "8:desert_117969.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_BF30C4A46DA7441BA0E099BA1ED208D5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AA44CBBCAC6444B6EBA2B9252F84C282"
@@ -795,37 +777,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C2E33D1FC5964F6785C5CF2B9ACE6A7B"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Data.SQLite, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_C2E33D1FC5964F6785C5CF2B9ACE6A7B"
-                    {
-                    "Name" = "8:System.Data.SQLite.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\JejuFarm Receipt Project\\bin\\Debug\\System.Data.SQLite.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_BF30C4A46DA7441BA0E099BA1ED208D5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D23DF4B8F69364225D7D1C71690B8EDC"
@@ -1054,13 +1005,13 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_39FAAF8B076B417ABE286111B8D7B5CE"
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_5F440C4206B14082B4F4D35852CFA8AA"
                     {
                     "Name" = "8:x86"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
-                    "Property" = "8:_006B28C7F27C4DA2BA5EED91D98C750A"
+                    "Property" = "8:_625D86EC611C433BA144782650EABFF8"
                         "Folders"
                         {
                         }
@@ -1083,15 +1034,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:JeJuReceipt"
-        "ProductCode" = "8:{54850D95-8CA2-4EAC-A30D-FF967D218386}"
-        "PackageCode" = "8:{F31CFD98-13AB-4B1C-AA3D-432B7478E8EC}"
+        "ProductCode" = "8:{51E4F0B4-06D0-414A-BDC0-0BDBCE8A8D48}"
+        "PackageCode" = "8:{7EFCA30F-6BD4-4171-9EC1-EAB5A7CC6A7F}"
         "UpgradeCode" = "8:{45A32641-EDB1-402C-B7C7-9E5D6513BF28}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:2.0.0"
+        "ProductVersion" = "8:2.0.1"
         "Manufacturer" = "8:제주농원"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -1204,7 +1155,35 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_049143E31C8041D08F4E2E900053729B"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2F3C4F75400348D8856B8DE9EE0BF592"
+            {
+            "Name" = "8:영수증"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_BCEB2C02A49943028B79B360285C73AB"
+            "Folder" = "8:_633DC5B25594484986C031C9DC435BBB"
+            "WorkingFolder" = "8:_BF30C4A46DA7441BA0E099BA1ED208D5"
+            "Icon" = "8:_9A962F226DB548549ABFDE0223112DD2"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E5E329372D334D7E818585EFA3AA301D"
+            {
+            "Name" = "8:영수증"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_BCEB2C02A49943028B79B360285C73AB"
+            "Folder" = "8:_808F8DCD52E043029D7F3CDA83D1249B"
+            "WorkingFolder" = "8:_BF30C4A46DA7441BA0E099BA1ED208D5"
+            "Icon" = "8:_9A962F226DB548549ABFDE0223112DD2"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E86115BABE1D435B93D4691AE8A570A1"
             {
             "Name" = "8:JejuReceipt"
             "Arguments" = "8:"
@@ -1212,38 +1191,10 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:"
+            "Target" = "8:_BCEB2C02A49943028B79B360285C73AB"
             "Folder" = "8:_6195839003EE4F12B619F9335E2B242E"
             "WorkingFolder" = "8:_BF30C4A46DA7441BA0E099BA1ED208D5"
-            "Icon" = "8:_A3BA0CB5B71B4368BA0EF595C51FADD1"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_10C699EA43154DA7A5B1B9AD5CACC1E0"
-            {
-            "Name" = "8:영수증"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:"
-            "Folder" = "8:_633DC5B25594484986C031C9DC435BBB"
-            "WorkingFolder" = "8:_BF30C4A46DA7441BA0E099BA1ED208D5"
-            "Icon" = "8:_A3BA0CB5B71B4368BA0EF595C51FADD1"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DA1D6FC0B73345318F57C5BEA91A8D2E"
-            {
-            "Name" = "8:영수증"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:"
-            "Folder" = "8:_808F8DCD52E043029D7F3CDA83D1249B"
-            "WorkingFolder" = "8:_BF30C4A46DA7441BA0E099BA1ED208D5"
-            "Icon" = "8:_A3BA0CB5B71B4368BA0EF595C51FADD1"
+            "Icon" = "8:_9A962F226DB548549ABFDE0223112DD2"
             "Feature" = "8:"
             }
         }
@@ -1645,7 +1596,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_4A301D980227411198231EC4CF103CB4"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_BCEB2C02A49943028B79B360285C73AB"
             {
             "SourcePath" = "8:..\\JejuFarm Receipt Project\\obj\\Debug\\JejuFarm Receipt Project.exe"
             "TargetName" = "8:"

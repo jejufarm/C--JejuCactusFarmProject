@@ -36,4 +36,10 @@ F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\ProgramCore.dll
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\ProgramCore.pdb
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csproj.CopyComplete
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\System.Security.dll
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\System.Configuration.dll
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\Accessibility.dll
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\System.Deployment.dll
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csprojAssemblyReference.cache
