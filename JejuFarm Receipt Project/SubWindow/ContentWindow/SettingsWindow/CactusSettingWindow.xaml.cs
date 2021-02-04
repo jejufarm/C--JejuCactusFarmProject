@@ -1,5 +1,7 @@
 ﻿using IniSettings;
 using JejuFarm_Receipt_Project.Binding.ObjectViewModel;
+using ProgramCore.ObjectModel;
+using ProgramServices;
 using System;
 using System.Windows;
 using System.Windows.Controls;
@@ -14,14 +16,12 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
     /// </summary>
     public partial class CactusSettingWindow : System.Windows.Controls.UserControl
     {
-        private INISetting ini;
         private int selectedIndex = -1;
         public CactusSettingWindow()
         {
             InitializeComponent();
             CactusListView.ItemsSource = CactusListBoxViewModel.GetInstance();
-            ini = new INISetting();
-            CacutsListBoxModel.Load(ini.LoadCactusList());
+            LoadCactusListDB();
         }
         private bool able()
         {
@@ -30,84 +30,119 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
             return true;
         }
 
+        private void LoadCactusListDB()
+        {
+            CacutsListBoxModel.Load(ProgramService.db.LoadCactusList());
+        }
+
         private void CactusListView_SizeChanged(object sender, SizeChangedEventArgs e)
         {
             double remainingSpace = CactusListView.ActualWidth;
             if (remainingSpace > 0)
                 for (int idx = 0; idx < 2; idx++)
-                    (CactusListView.View as GridView).Columns[idx].Width = Math.Ceiling(remainingSpace / 2);
+                    (CactusListView.View as GridView).Columns[idx].Width = Math.Ceiling(remainingSpace / 2 - 30);
         }
 
 
         private void CactusListView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            dynamic meta_data = sender as dynamic;
-            TitleText.Text = meta_data.SelectedItem.Title;
-            PriceText.Text = meta_data.SelectedItem.Price.ToString();
-            selectedIndex = meta_data.SelectedIndex;
-            ButtonText.Text = "수정/삭제";
+            try
+            {
+                dynamic meta_data = sender as dynamic;
+                TitleText.Text = meta_data.SelectedItem.Title;
+                PriceText.Text = meta_data.SelectedItem.Price.ToString();
+                selectedIndex = meta_data.SelectedIndex;
+                ButtonText.Text = "수정/삭제";
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (selectedIndex > -1)
+
+            if (!able())
             {
-                if (able())
+                System.Windows.MessageBox.Show("항목과 가격을 정확히 입력해주세요.");
+                return;
+            }
+            int idx = -1;
+
+            if (CactusListView.SelectedIndex > -1)
+            {
+                idx = selectedIndex;
+            }
+            else
+            {
+                idx = ProgramService.db.GetMaxUid();
+            }
+
+            if (ButtonText.Text == "추가")
+            {
+                if(idx == -1)
+                    idx = CactusListView.SelectedIndex;
+
+                if (!ProgramService.db.InsertCactusData(new CactusListForm()
                 {
-                    if (CacutsListBoxModel.UpdateItem(selectedIndex, TitleText.Text, Convert.ToInt32(PriceText.Text)))
-                    {
-                        var item = CacutsListBoxModel.GetInstance()[selectedIndex];
-                        ini.WriteProerty("CactusList", "Cactus" + item.Index.ToString(), item.Title + "||" + item.Price);
-                        CactusListView.SelectedItem = null;
-                        TitleText.Text = "";
-                        PriceText.Text = "";
-                        selectedIndex = -1;
-                        ButtonText.Text = "추가";
-                    }
-                }
-                else
+                    Index = idx,
+                    Title = TitleText.Text,
+                    Price = Convert.ToInt32(PriceText.Text)
+                }))
                 {
-                    System.Windows.MessageBox.Show("제대로 입력해주세요.");
+                    System.Windows.MessageBox.Show("항목을 추가하지 못하였습니다.");
                 }
             }
             else
             {
-                if (able())
+                if (!ProgramService.db.UpdateCactusData(new CactusListForm()
                 {
-                    int key = CacutsListBoxModel.InsertItem(TitleText.Text, Convert.ToInt32(PriceText.Text));
-                    ini.WriteProerty("CactusList", "Cactus" + key, TitleText.Text + "||" + Convert.ToInt32(PriceText.Text));
-                    CactusListView.SelectedItem = null;
-                    TitleText.Text = "";
-                    PriceText.Text = "";
-                    selectedIndex = -1;
+                    Index = idx,
+                    Title = TitleText.Text,
+                    Price = Convert.ToInt32(PriceText.Text)
+                }))
+                {
+                    System.Windows.MessageBox.Show("항목을 수정하지 못하였습니다.");
                 }
                 else
                 {
-                    System.Windows.MessageBox.Show("제대로 입력해주세요.");
+                    ButtonText.Text = "추가";
+
                 }
             }
+            LoadCactusListDB();
+            CactusListView.ScrollIntoView(CactusListView.Items[idx]);
+            TitleText.Text = "";
+            PriceText.Text = "";
+            CactusListView.SelectedIndex = -1;
+            selectedIndex = -1;
+
         }
 
         private void Button_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
-            if (System.Windows.Forms.MessageBox.Show("정말로 삭제하겠습니까?", "예/아니오", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (selectedIndex > -1)
             {
-                int key = CacutsListBoxModel.DeleteItem(selectedIndex);
-                ini.WriteProerty("CactusList", "Cactus" + key, null);
-                foreach (var item in CacutsListBoxModel.GetInstance())
-                    if (item.Index > key)
-                    {
-                        item.Index -= 1;
-                        ini.WriteProerty("CactusList", "Cactus" + item.Index, item.Title + "||" + item.Price);
-                    }
+                if (System.Windows.Forms.MessageBox.Show("정말로 삭제하겠습니까?", "예/아니오", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
 
-                ini.WriteProerty("CactusList", "Cactus" + CacutsListBoxModel.GetInstance().Count, null);
-                CactusListView.SelectedItem = null;
-                TitleText.Text = "";
-                PriceText.Text = "";
-                selectedIndex = -1;
-                ButtonText.Text = "추가";
+                    if (ProgramService.db.DeleteCactusData(selectedIndex))
+                    {
+
+                        ButtonText.Text = "추가";
+                        TitleText.Text = "";
+                        PriceText.Text = "";
+                        CactusListView.SelectedIndex = -1;
+                        selectedIndex = -1;
+                        LoadCactusListDB();
+                    }
+                    else
+                    {
+                        System.Windows.MessageBox.Show("항목을 삭제하지 못하였습니다.");
+                    }
+                }
             }
         }
 
@@ -141,67 +176,13 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
             Console.WriteLine("UP : " + meta_data.SelectedIndex);
         }
 
-        //private void CactusListView_MouseDown(object sender, MouseButtonEventArgs e)
-        //{
-        //    System.Windows.Controls.ListView listView = sender as System.Windows.Controls.ListView;
-        //    Point mousePoint = e.GetPosition(listView);
-        //    IInputElement inputElement = listView.InputHitTest(mousePoint);
-
-        //    System.Windows.Controls.ListViewItem item = FindAncestor<System.Windows.Controls.ListViewItem>(inputElement as DependencyObject);
-        //    if (item != null)
-        //    {
-        //        Console.WriteLine("zz");
-        //    }
-
-
-
-          
-        //}
-        #region 조상 찾기 - FindAncestor<TAncestor>(dependencyObject)
-
-
-
-        /// <summary>
-
-        /// 조상 찾기
-
-        /// </summary>
-
-        /// <typeparam name="TAncestor">조상 타입</typeparam>
-
-        /// <param name="dependencyObject">의존 객체</param>
-
-        /// <returns>조상 객체</returns>
-
-        private static TAncestor FindAncestor<TAncestor>(DependencyObject dependencyObject) where TAncestor : DependencyObject
-        {
-
-            do
-            {
-                if (dependencyObject is TAncestor)
-                {
-                    return (TAncestor)dependencyObject;
-                }
-                dependencyObject = VisualTreeHelper.GetParent(dependencyObject);
-            }
-            while (dependencyObject != null);
-            return null;
-        }
-
         private void CactusListView_MouseRightUp(object sender, MouseButtonEventArgs e)
         {
             TitleText.Text = "";
             PriceText.Text = "";
             CactusListView.SelectedIndex = -1;
             selectedIndex = -1;
+            ButtonText.Text = "추가";
         }
-
-        #endregion
-
-        //private void CactusListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        //{
-        //    dynamic meta_data = sender as dynamic;
-        //    Console.WriteLine("Move : " + meta_data.SelectedIndex);
-        //}
     }
 }

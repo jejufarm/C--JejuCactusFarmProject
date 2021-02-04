@@ -1,0 +1,39 @@
+C:\Users\user\Desktop\src\C#_SQLite\SQLiteProject\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.deps.json
+C:\Users\user\Desktop\src\C#_SQLite\SQLiteProject\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.dll
+C:\Users\user\Desktop\src\C#_SQLite\SQLiteProject\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\src\C#_SQLite\SQLiteProject\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.AssemblyInfo.cs
+C:\Users\user\Desktop\src\C#_SQLite\SQLiteProject\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\src\C#_SQLite\SQLiteProject\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.pdb
+C:\Users\user\Desktop\src\C#_SQLite\SQLiteProject\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.dll
+C:\Users\user\Desktop\src\C#_SQLite\SQLiteProject\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.pdb
+C:\Users\user\Desktop\src\C#_SQLite\SQLiteProject\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csprojAssemblyReference.cache
+C:\Users\user\source\repos\SQLiteProject1\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.deps.json
+C:\Users\user\source\repos\SQLiteProject1\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.dll
+C:\Users\user\source\repos\SQLiteProject1\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.pdb
+C:\Users\user\source\repos\SQLiteProject1\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csprojAssemblyReference.cache
+C:\Users\user\source\repos\SQLiteProject1\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\SQLiteProject1\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.AssemblyInfo.cs
+C:\Users\user\source\repos\SQLiteProject1\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\SQLiteProject1\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.dll
+C:\Users\user\source\repos\SQLiteProject1\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.pdb
+C:\Users\user\Desktop\src\SQLite_C#\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.deps.json
+C:\Users\user\Desktop\src\SQLite_C#\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.dll
+C:\Users\user\Desktop\src\SQLite_C#\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.pdb
+C:\Users\user\Desktop\src\SQLite_C#\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csprojAssemblyReference.cache
+C:\Users\user\Desktop\src\SQLite_C#\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\src\SQLite_C#\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.AssemblyInfo.cs
+C:\Users\user\Desktop\src\SQLite_C#\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\src\SQLite_C#\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.dll
+C:\Users\user\Desktop\src\SQLite_C#\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.pdb
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.deps.json
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.dll
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.pdb
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.AssemblyInfoInputs.cache
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.AssemblyInfo.cs
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csproj.CoreCompileInputs.cache
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.dll
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.pdb
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\ProgramCore.dll
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\ProgramCore.pdb
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csproj.CopyComplete
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csprojAssemblyReference.cache

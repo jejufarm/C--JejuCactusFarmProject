@@ -193,6 +193,14 @@
       <Project>{e5adb2c7-7887-4575-aa3d-aa9fa6edfc44}</Project>
       <Name>ProgramCore</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ProgramServices\ProgramServices.csproj">
+      <Project>{959BDD4A-865D-4D2B-AE1C-581E5FE9EF53}</Project>
+      <Name>ProgramServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLiteComponent\SQLiteComponent.csproj">
+      <Project>{4ADE4F4C-914F-419E-96B9-E342C2559060}</Project>
+      <Name>SQLiteComponent</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -2,7 +2,9 @@
 using IniSettings;
 using JejuFarm_Receipt_Project.Binding.ObjectViewModel;
 using PrinterCore;
+using ProgramCore;
 using ProgramCore.ObjectModel;
+using ProgramServices;
 using System;
 using System.Collections.Generic;
 using System.Windows;
@@ -37,10 +39,11 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow
         {
             InitializeComponent();
             InitBinding();
-            
-            INISetting ini = new INISetting();
-            CacutsListBoxModel.Load(ini.LoadCactusList());
+            CacutsListBoxModel.Load(ProgramService.db.LoadCactusList());
 
+
+            INISetting ini = new INISetting();
+           
             ListBoxFontSizeViewModel.GetInstance().FontSize = ini.LoadListBoxFontSize();
             BasketListFontSizeViewModel.GetInstance().FontSize = ini.LoadListViewFontSize();
             for (int i = 1; i <= 50; i++)

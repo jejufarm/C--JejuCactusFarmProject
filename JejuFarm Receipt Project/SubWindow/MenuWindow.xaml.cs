@@ -30,6 +30,7 @@ namespace JejuFarm_Receipt_Project.SubWindow
         private void SettingButton_Click(object sender, RoutedEventArgs e)
         {
             ContentControlViewModel.GetInstance().Page = new SettingWindow();
+            SettingPageControlViewModel.GetInstance().Page = null;
             //ContentControlViewModel.GetInstance().Page = new PrinterFormWindow();
         }
 

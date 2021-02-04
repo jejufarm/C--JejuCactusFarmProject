@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\
 JejuFarm_Receipt_Project
 none
 false
 DEBUG;TRACE
-C:\Users\user\source\repos\JejuFarm Receipt Project\JejuFarm Receipt Project\App.xaml
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\App.xaml
 9-710399437
 
 23-674671090
-24-702928214
+27-580773228
 MainWindow.xaml;PrinterFormWindow.xaml;SubWindow\ContentWindow\ReceiptWindow.xaml;SubWindow\ContentWindow\SettingsWindow\BluetoothSettingWindow.xaml;SubWindow\ContentWindow\SettingsWindow\CactusSettingWindow.xaml;SubWindow\ContentWindow\SettingsWindow\PrinterSettingWindow.xaml;SubWindow\ContentWindow\SettingsWindow\ProgramSettingWindow.xaml;SubWindow\ContentWindow\SettingWindow.xaml;SubWindow\MenuWindow.xaml;
 
 True

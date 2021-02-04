@@ -16,7 +16,7 @@
         
         <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,0">
             <ListView x:Name="CactusListView" IsSynchronizedWithCurrentItem="True"
-                
+
                 MouseRightButtonUp="CactusListView_MouseRightUp"
                 SizeChanged="CactusListView_SizeChanged" MouseDoubleClick="CactusListView_MouseDoubleClick"
                 TextElement.FontSize="40" TextElement.FontWeight="Bold">
@@ -67,9 +67,10 @@
                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
                 FontSize="40" />
 
-            <Button Grid.Row="2"
+            <Button x:Name="Button1"
+                Grid.Row="2"
                 Click="Button_Click"
-                 MouseRightButtonDown="Button_MouseRightButtonDown"
+                MouseRightButtonDown="Button_MouseRightButtonDown"
                 Style="{StaticResource BasedButtonStyle}"
                 ToolTip="추가 및 수정/삭제">
                 <Viewbox>

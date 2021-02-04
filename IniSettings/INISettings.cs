@@ -40,10 +40,6 @@ namespace IniSettings
                 WriteProerty("ProgramSettings", "LISTVIEW_4_WIDTH", "5.0");
                 WriteProerty("ProgramSettings", "LISTVIEW_5_WIDTH", "5.0");
 
-                WriteProerty("CactusList", "Cactus0", "선인장1 100000");
-                WriteProerty("CactusList", "Cactus1", "선인장2 200000");
-                WriteProerty("CactusList", "Cactus2", "선인장3 300000");
-
                 WriteProerty("Printer", "PageSize", "A5");
                 WriteProerty("Printer", "PageCount", "2");
             }

@@ -4,7 +4,9 @@ using IniSettings;
 using JejuFarm_Receipt_Project.Binding.ObjectViewModel;
 using JejuFarm_Receipt_Project.SubWindow.ContentWindow;
 using PrinterCore;
+using ProgramCore;
 using ProgramCore.ObjectModel;
+using ProgramServices;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -20,7 +22,6 @@ namespace JejuFarm_Receipt_Project
 
     public partial class MainWindow : Window
     {
-
         public static Bluetooth bt;
         private bool shutdown = true;
         private Printer printer;
@@ -34,6 +35,7 @@ namespace JejuFarm_Receipt_Project
         {
             InitializeComponent();
             InitBinding();
+            ProgramService.RunDB();
             INISetting ini = new INISetting();
             shutdown = ini.LoadShutDown();
             BluetoothStatus.IsEnabled = false;
@@ -85,6 +87,7 @@ namespace JejuFarm_Receipt_Project
         }
         private void WindowsCloseButton_Click(object sender, RoutedEventArgs e)
         {
+            ProgramService.CloseDB();
             Close();
         }
 

@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JejuFarm Receipt Project", "JejuFarm Receipt Project\JejuFarm Receipt Project.csproj", "{9E002A8D-F5FF-4709-9727-AF91F6D89780}"
+	ProjectSection(ProjectDependencies) = postProject
+		{959BDD4A-865D-4D2B-AE1C-581E5FE9EF53} = {959BDD4A-865D-4D2B-AE1C-581E5FE9EF53}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramCore", "ProgramCore\ProgramCore.csproj", "{E5ADB2C7-7887-4575-AA3D-AA9FA6EDFC44}"
 EndProject
@@ -18,6 +21,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E27E5189-ED63-4745-A0E0-3692C926092C}"
 	ProjectSection(SolutionItems) = preProject
 		README.MD = README.MD
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLiteComponent", "SQLiteComponent\SQLiteComponent.csproj", "{4ADE4F4C-914F-419E-96B9-E342C2559060}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E5ADB2C7-7887-4575-AA3D-AA9FA6EDFC44} = {E5ADB2C7-7887-4575-AA3D-AA9FA6EDFC44}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramServices", "ProgramServices\ProgramServices.csproj", "{959BDD4A-865D-4D2B-AE1C-581E5FE9EF53}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4ADE4F4C-914F-419E-96B9-E342C2559060} = {4ADE4F4C-914F-419E-96B9-E342C2559060}
 	EndProjectSection
 EndProject
 Global
@@ -48,6 +61,14 @@ Global
 		{64B69764-CBC0-4F74-AC41-C1A4553B045C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{982306F4-88AF-4ABF-9DEE-B2A6299BB888}.Debug|Any CPU.ActiveCfg = Debug
 		{982306F4-88AF-4ABF-9DEE-B2A6299BB888}.Release|Any CPU.ActiveCfg = Release
+		{4ADE4F4C-914F-419E-96B9-E342C2559060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADE4F4C-914F-419E-96B9-E342C2559060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADE4F4C-914F-419E-96B9-E342C2559060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADE4F4C-914F-419E-96B9-E342C2559060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959BDD4A-865D-4D2B-AE1C-581E5FE9EF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959BDD4A-865D-4D2B-AE1C-581E5FE9EF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959BDD4A-865D-4D2B-AE1C-581E5FE9EF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959BDD4A-865D-4D2B-AE1C-581E5FE9EF53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

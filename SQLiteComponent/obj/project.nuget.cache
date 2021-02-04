@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1b1vUsNPJmR60j+t1BYmbd5VFGG5j3oMEKdKEqeHWgJurHh9qYp4yIB4MEU3pXeDMfJwCnhqALvIsUjPi3fh2g==",
+  "success": true,
+  "projectFilePath": "F:\\개인 파일\\프로그래밍\\개인프로젝트\\C#\\JejuFarm Receipt Project\\SQLiteComponent\\SQLiteComponent.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cjwgi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\cjwgi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\cjwgi\\.nuget\\packages\\system.data.sqlite.core\\1.0.113.1\\system.data.sqlite.core.1.0.113.1.nupkg.sha512"
+  ],
+  "logs": []
+}
