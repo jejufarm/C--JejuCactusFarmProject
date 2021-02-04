@@ -5,6 +5,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Forms;
 using System.Windows.Input;
+using System.Windows.Media;
 
 namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
 {
@@ -47,14 +48,6 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
             ButtonText.Text = "수정/삭제";
         }
 
-        private void CactusListView_MouseRightButtonUp(object sender, MouseButtonEventArgs e)
-        {
-            CactusListView.SelectedItem = null;
-            TitleText.Text = "";
-            PriceText.Text = "";
-            selectedIndex = -1;
-            ButtonText.Text = "추가";
-        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -65,7 +58,7 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
                     if (CacutsListBoxModel.UpdateItem(selectedIndex, TitleText.Text, Convert.ToInt32(PriceText.Text)))
                     {
                         var item = CacutsListBoxModel.GetInstance()[selectedIndex];
-                        ini.WriteProerty("CactusList", item.Key, item.Title + " " + item.Price);
+                        ini.WriteProerty("CactusList", "Cactus" + item.Index.ToString(), item.Title + "||" + item.Price);
                         CactusListView.SelectedItem = null;
                         TitleText.Text = "";
                         PriceText.Text = "";
@@ -83,7 +76,7 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
                 if (able())
                 {
                     int key = CacutsListBoxModel.InsertItem(TitleText.Text, Convert.ToInt32(PriceText.Text));
-                    ini.WriteProerty("CactusList", "Cactus" + key, TitleText.Text + " " + Convert.ToInt32(PriceText.Text));
+                    ini.WriteProerty("CactusList", "Cactus" + key, TitleText.Text + "||" + Convert.ToInt32(PriceText.Text));
                     CactusListView.SelectedItem = null;
                     TitleText.Text = "";
                     PriceText.Text = "";
@@ -102,6 +95,14 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
             {
                 int key = CacutsListBoxModel.DeleteItem(selectedIndex);
                 ini.WriteProerty("CactusList", "Cactus" + key, null);
+                foreach (var item in CacutsListBoxModel.GetInstance())
+                    if (item.Index > key)
+                    {
+                        item.Index -= 1;
+                        ini.WriteProerty("CactusList", "Cactus" + item.Index, item.Title + "||" + item.Price);
+                    }
+
+                ini.WriteProerty("CactusList", "Cactus" + CacutsListBoxModel.GetInstance().Count, null);
                 CactusListView.SelectedItem = null;
                 TitleText.Text = "";
                 PriceText.Text = "";
@@ -127,12 +128,80 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
 
         private void PriceText_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
         {
-            if(e.Key.ToString() == "Return")
+            if (e.Key.ToString() == "Return")
             {
                 Button_Click(null, null);
                 TitleText.Focus();
             }
         }
 
+        private void CactusListView_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            dynamic meta_data = sender as dynamic;
+            Console.WriteLine("UP : " + meta_data.SelectedIndex);
+        }
+
+        //private void CactusListView_MouseDown(object sender, MouseButtonEventArgs e)
+        //{
+        //    System.Windows.Controls.ListView listView = sender as System.Windows.Controls.ListView;
+        //    Point mousePoint = e.GetPosition(listView);
+        //    IInputElement inputElement = listView.InputHitTest(mousePoint);
+
+        //    System.Windows.Controls.ListViewItem item = FindAncestor<System.Windows.Controls.ListViewItem>(inputElement as DependencyObject);
+        //    if (item != null)
+        //    {
+        //        Console.WriteLine("zz");
+        //    }
+
+
+
+          
+        //}
+        #region 조상 찾기 - FindAncestor<TAncestor>(dependencyObject)
+
+
+
+        /// <summary>
+
+        /// 조상 찾기
+
+        /// </summary>
+
+        /// <typeparam name="TAncestor">조상 타입</typeparam>
+
+        /// <param name="dependencyObject">의존 객체</param>
+
+        /// <returns>조상 객체</returns>
+
+        private static TAncestor FindAncestor<TAncestor>(DependencyObject dependencyObject) where TAncestor : DependencyObject
+        {
+
+            do
+            {
+                if (dependencyObject is TAncestor)
+                {
+                    return (TAncestor)dependencyObject;
+                }
+                dependencyObject = VisualTreeHelper.GetParent(dependencyObject);
+            }
+            while (dependencyObject != null);
+            return null;
+        }
+
+        private void CactusListView_MouseRightUp(object sender, MouseButtonEventArgs e)
+        {
+            TitleText.Text = "";
+            PriceText.Text = "";
+            CactusListView.SelectedIndex = -1;
+            selectedIndex = -1;
+        }
+
+        #endregion
+
+        //private void CactusListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        //{
+        //    dynamic meta_data = sender as dynamic;
+        //    Console.WriteLine("Move : " + meta_data.SelectedIndex);
+        //}
     }
 }

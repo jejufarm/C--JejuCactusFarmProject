@@ -91,9 +91,9 @@ namespace IniSettings
                 {
                     list.Add(new CactusListForm()
                     {
-                        Key = "Cactus" + i,
-                        Title = Strings.Split(data, " ")[0],
-                        Price = Convert.ToInt32(Strings.Split(data, " ")[1])
+                        Index = i,
+                        Title = Strings.Split(data, "||")[0],
+                        Price = Convert.ToInt32(Strings.Split(data, "||")[1])
                     });
                 }
             }

@@ -41,7 +41,7 @@ namespace JejuFarm_Receipt_Project.Binding.ObjectViewModel
             int cycle = 0;
             foreach(var item in GetInstance())
             {
-                int temp = Convert.ToInt32(Strings.Split(item.Key, "Cactus")[1]);
+                int temp =  item.Index;
                 if (temp == cycle)
                 {
                     cycle++;
@@ -53,7 +53,7 @@ namespace JejuFarm_Receipt_Project.Binding.ObjectViewModel
             }
             CactusListForm tmp = new CactusListForm()
             {
-                Key = "Cactus" + cycle,
+                Index = cycle,
                 Title = title,
                 Price = price
             };
@@ -77,7 +77,7 @@ namespace JejuFarm_Receipt_Project.Binding.ObjectViewModel
 
         public static int DeleteItem(int idx)
         {
-            int temp = Convert.ToInt32(Strings.Split(GetInstance()[idx].Key,"Cactus")[1]);
+            int temp = GetInstance()[idx].Index;
             GetInstance().RemoveAt(idx);
             CactusListBoxViewModel.GetInstance().RemoveAt(idx);
             return temp;
