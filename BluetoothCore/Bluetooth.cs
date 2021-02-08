@@ -90,7 +90,7 @@ namespace BluetoothCore
                             try
                             {
                                 List<BasketListForm> temp = new List<BasketListForm>();
-                                int idx = 0;
+                                int idx = 1;
                                 foreach (var item in Strings.Split(str, "\\"))
                                 {
                                     if (item == "")

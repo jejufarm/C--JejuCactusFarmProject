@@ -31,3 +31,14 @@ F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.csproj.CopyComplete
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.dll
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\PrinterCore\bin\Debug\PrinterCore.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\PrinterCore\bin\Debug\PrinterCore.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\PrinterCore\bin\Debug\IniSettings.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\PrinterCore\bin\Debug\ProgramCore.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\PrinterCore\bin\Debug\IniSettings.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\PrinterCore\bin\Debug\ProgramCore.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.csprojAssemblyReference.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.csproj.CoreCompileInputs.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.csproj.CopyComplete
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\PrinterCore\obj\Debug\PrinterCore.pdb

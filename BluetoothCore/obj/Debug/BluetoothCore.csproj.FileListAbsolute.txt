@@ -31,3 +31,14 @@ F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\BluetoothCore\obj\Debug\BluetoothCore.csproj.CopyComplete
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\BluetoothCore\obj\Debug\BluetoothCore.dll
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\BluetoothCore\obj\Debug\BluetoothCore.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\BluetoothCore\bin\Debug\BluetoothCore.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\BluetoothCore\bin\Debug\BluetoothCore.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\BluetoothCore\bin\Debug\InTheHand.Net.Personal.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\BluetoothCore\bin\Debug\ProgramCore.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\BluetoothCore\bin\Debug\ProgramCore.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\BluetoothCore\bin\Debug\InTheHand.Net.Personal.xml
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\BluetoothCore\obj\Debug\BluetoothCore.csprojAssemblyReference.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\BluetoothCore\obj\Debug\BluetoothCore.csproj.CoreCompileInputs.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\BluetoothCore\obj\Debug\BluetoothCore.csproj.CopyComplete
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\BluetoothCore\obj\Debug\BluetoothCore.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\BluetoothCore\obj\Debug\BluetoothCore.pdb

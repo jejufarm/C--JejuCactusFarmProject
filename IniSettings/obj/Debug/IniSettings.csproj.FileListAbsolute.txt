@@ -25,3 +25,12 @@ F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\IniSettings\obj\Debug\IniSettings.csproj.CopyComplete
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\IniSettings\obj\Debug\IniSettings.dll
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\IniSettings\obj\Debug\IniSettings.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\IniSettings\bin\Debug\IniSettings.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\IniSettings\bin\Debug\IniSettings.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\IniSettings\bin\Debug\ProgramCore.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\IniSettings\bin\Debug\ProgramCore.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\IniSettings\obj\Debug\IniSettings.csprojAssemblyReference.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\IniSettings\obj\Debug\IniSettings.csproj.CoreCompileInputs.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\IniSettings\obj\Debug\IniSettings.csproj.CopyComplete
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\IniSettings\obj\Debug\IniSettings.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\IniSettings\obj\Debug\IniSettings.pdb
