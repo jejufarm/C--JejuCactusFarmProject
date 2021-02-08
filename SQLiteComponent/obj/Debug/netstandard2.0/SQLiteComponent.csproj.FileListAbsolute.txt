@@ -43,3 +43,21 @@ F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\System.Deployment.dll
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csprojAssemblyReference.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.deps.json
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\SQLiteComponent.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\ProgramCore.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\System.Security.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\System.Configuration.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\Accessibility.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\System.Deployment.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\bin\Debug\netstandard2.0\ProgramCore.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csprojAssemblyReference.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.AssemblyInfoInputs.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.AssemblyInfo.cs
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csproj.CoreCompileInputs.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.csproj.CopyComplete
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\SQLiteComponent\obj\Debug\netstandard2.0\SQLiteComponent.pdb
