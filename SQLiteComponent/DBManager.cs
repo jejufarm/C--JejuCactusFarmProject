@@ -107,11 +107,11 @@ namespace SQLiteComponent
                 if (cactus.Index < 0)
                     return false;
 
-                sql.ExecuteSQL("UPDATE CACTUSLIST set cactus_uid = cactus_uid + 1 WHERE cactus_uid >= " + cactus.Index);
                 sql.ExecuteSQL("SELECT * FROM CACTUSLIST where cactus_uid = " + cactus.Index);
                 var temp = sql.GetData();
                 if (temp.Count == 0)
                 {
+                    sql.ExecuteSQL("UPDATE CACTUSLIST set cactus_uid = cactus_uid + 1 WHERE cactus_uid >= " + cactus.Index);
                     return sql.ExecuteSQL("INSERT INTO CACTUSLIST(cactus_uid, cactus_name, cactus_price) VALUES " +
                                           "(" + cactus.Index + ",'" + cactus.Title + "'," + cactus.Price + ");");
                 }
