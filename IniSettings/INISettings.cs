@@ -29,7 +29,7 @@ namespace IniSettings
 
             if (!ExistINI())
             {
-                WriteProerty("ProgramSettings", "MAX_PRODUCT", "100");
+                //WriteProerty("ProgramSettings", "MAX_PRODUCT", "100");
                 WriteProerty("ProgramSettings", "LISTVIEW_FONTSIZE", "25");
                 WriteProerty("ProgramSettings", "LISTBOX_FONTSIZE", "20");
                 WriteProerty("ProgramSettings", "SHUT_DOWN", "1");

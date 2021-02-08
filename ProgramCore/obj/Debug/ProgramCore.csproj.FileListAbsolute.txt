@@ -13,3 +13,4 @@ F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.csproj.CoreCompileInputs.cache
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.dll
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.pdb
+F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\ProgramCore\obj\Debug\ProgramCore.csprojAssemblyReference.cache

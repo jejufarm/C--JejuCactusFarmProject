@@ -299,11 +299,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\개인 파일\\프로그래밍\\개인프로젝트\\C#\\JejuFarm Receipt Project\\SQLiteComponent\\SQLiteComponent.csproj",
+      "projectUniqueName": "F:\\Private Folder\\Programming\\Private Project\\C#\\JejuFarm Receipt Project\\SQLiteComponent\\SQLiteComponent.csproj",
       "projectName": "SQLiteComponent",
-      "projectPath": "F:\\개인 파일\\프로그래밍\\개인프로젝트\\C#\\JejuFarm Receipt Project\\SQLiteComponent\\SQLiteComponent.csproj",
+      "projectPath": "F:\\Private Folder\\Programming\\Private Project\\C#\\JejuFarm Receipt Project\\SQLiteComponent\\SQLiteComponent.csproj",
       "packagesPath": "C:\\Users\\cjwgi\\.nuget\\packages\\",
-      "outputPath": "F:\\개인 파일\\프로그래밍\\개인프로젝트\\C#\\JejuFarm Receipt Project\\SQLiteComponent\\obj\\",
+      "outputPath": "F:\\Private Folder\\Programming\\Private Project\\C#\\JejuFarm Receipt Project\\SQLiteComponent\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cjwgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -319,8 +319,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "F:\\개인 파일\\프로그래밍\\개인프로젝트\\C#\\JejuFarm Receipt Project\\ProgramCore\\ProgramCore.csproj": {
-              "projectPath": "F:\\개인 파일\\프로그래밍\\개인프로젝트\\C#\\JejuFarm Receipt Project\\ProgramCore\\ProgramCore.csproj"
+            "F:\\Private Folder\\Programming\\Private Project\\C#\\JejuFarm Receipt Project\\ProgramCore\\ProgramCore.csproj": {
+              "projectPath": "F:\\Private Folder\\Programming\\Private Project\\C#\\JejuFarm Receipt Project\\ProgramCore\\ProgramCore.csproj"
             }
           }
         }

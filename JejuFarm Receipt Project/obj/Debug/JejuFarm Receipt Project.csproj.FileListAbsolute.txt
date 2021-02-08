@@ -182,3 +182,57 @@ F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\SQLiteComponent.pdb
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\ProgramServices.dll
 F:\개인 파일\프로그래밍\개인프로젝트\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\ProgramServices.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\JejuFarm Receipt Project.exe.config
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\JejuFarm Receipt Project.exe
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\JejuFarm Receipt Project.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\BluetoothCore.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\IniSettings.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignColors.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\PrinterCore.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\ProgramCore.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\ProgramServices.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\SQLiteComponent.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\InTheHand.Net.Personal.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\System.Data.SQLite.dll
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\BluetoothCore.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\IniSettings.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\PrinterCore.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\ProgramCore.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\ProgramServices.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\SQLiteComponent.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignColors.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\InTheHand.Net.Personal.xml
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.csprojAssemblyReference.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingWindow.baml
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\MenuWindow.baml
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\MainWindow.g.cs
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\PrinterFormWindow.g.cs
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\ReceiptWindow.g.cs
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\BluetoothSettingWindow.g.cs
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\CactusSettingWindow.g.cs
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\PrinterSettingWindow.g.cs
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\ProgramSettingWindow.g.cs
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingWindow.g.cs
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\MenuWindow.g.cs
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\App.g.cs
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project_MarkupCompile.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project_MarkupCompile.lref
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\App.baml
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\MainWindow.baml
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\PrinterFormWindow.baml
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\ReceiptWindow.baml
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\BluetoothSettingWindow.baml
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\CactusSettingWindow.baml
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\PrinterSettingWindow.baml
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\SubWindow\ContentWindow\SettingsWindow\ProgramSettingWindow.baml
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.g.resources
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm_Receipt_Project.Properties.Resources.resources
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.csproj.GenerateResource.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.csproj.CoreCompileInputs.cache
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.csproj.CopyComplete
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.exe
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.pdb
