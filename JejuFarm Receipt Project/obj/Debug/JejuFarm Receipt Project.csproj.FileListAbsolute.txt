@@ -194,7 +194,6 @@ F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFa
 F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\ProgramServices.dll
 F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\SQLiteComponent.dll
 F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\InTheHand.Net.Personal.dll
-F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\System.Data.SQLite.dll
 F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\BluetoothCore.pdb
 F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\IniSettings.pdb
 F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\PrinterCore.pdb
