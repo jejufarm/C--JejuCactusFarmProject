@@ -9,7 +9,7 @@ namespace ProgramServices
 {
     public static class ProgramService
     {
-        public static DBManager db;
+        private static DBManager db = null;
 
         public static bool RunDB()
         {
@@ -26,6 +26,13 @@ namespace ProgramServices
         public static void CloseDB()
         {
             db.CloseDB();
+        }
+
+        public static DBManager GetDB()
+        {
+            if (db == null)
+                db = new DBManager();
+            return db;
         }
     }
 }

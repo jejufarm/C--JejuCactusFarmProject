@@ -39,7 +39,7 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow
         {
             InitializeComponent();
             InitBinding();
-            CacutsListBoxModel.Load(ProgramService.db.LoadCactusList());
+            CacutsListBoxModel.Load(ProgramService.GetDB().LoadCactusList());
 
 
             INISetting ini = new INISetting();

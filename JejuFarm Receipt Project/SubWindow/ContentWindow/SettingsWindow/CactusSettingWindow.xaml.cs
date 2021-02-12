@@ -32,7 +32,7 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
 
         private void LoadCactusListDB()
         {
-            CacutsListBoxModel.Load(ProgramService.db.LoadCactusList());
+            CacutsListBoxModel.Load(ProgramService.GetDB().LoadCactusList());
         }
 
         private void CactusListView_SizeChanged(object sender, SizeChangedEventArgs e)
@@ -77,7 +77,7 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
             }
             else
             {
-                idx = ProgramService.db.GetMaxUid();
+                idx = ProgramService.GetDB().GetMaxUid();
             }
 
             if (ButtonText.Text == "추가")
@@ -85,7 +85,7 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
                 if(idx == -1)
                     idx = CactusListView.SelectedIndex;
 
-                if (!ProgramService.db.InsertCactusData(new CactusListForm()
+                if (!ProgramService.GetDB().InsertCactusData(new CactusListForm()
                 {
                     Index = idx,
                     Title = TitleText.Text,
@@ -97,7 +97,7 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
             }
             else
             {
-                if (!ProgramService.db.UpdateCactusData(new CactusListForm()
+                if (!ProgramService.GetDB().UpdateCactusData(new CactusListForm()
                 {
                     Index = idx,
                     Title = TitleText.Text,
@@ -128,7 +128,7 @@ namespace JejuFarm_Receipt_Project.SubWindow.ContentWindow.SettingsWindow
                 if (System.Windows.Forms.MessageBox.Show("정말로 삭제하겠습니까?", "예/아니오", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
 
-                    if (ProgramService.db.DeleteCactusData(selectedIndex))
+                    if (ProgramService.GetDB().DeleteCactusData(selectedIndex))
                     {
 
                         ButtonText.Text = "추가";
