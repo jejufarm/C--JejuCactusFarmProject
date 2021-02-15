@@ -64,13 +64,13 @@ namespace SQLiteComponent
                 sql.ExecuteSQL("SELECT MAX(cactus_uid) FROM CACTUSLIST");
                 var temp = sql.GetData();
                 if (temp.Count > 0)
-                {
                     return Convert.ToInt32(temp[0]["MAX(cactus_uid)"]) + 1;
-                }
-                else
-                {
-                    return 0;
-                }
+                return 0;
+                
+            }
+            catch(System.InvalidCastException ex)
+            {
+                return 0;
             }
             catch (Exception ex)
             {
