@@ -235,3 +235,4 @@ F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFa
 F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.csproj.CopyComplete
 F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.exe
 F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\obj\Debug\JejuFarm Receipt Project.pdb
+F:\Private Folder\Programming\Private Project\C#\JejuFarm Receipt Project\JejuFarm Receipt Project\bin\Debug\System.Data.SQLite.dll

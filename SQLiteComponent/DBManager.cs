@@ -82,12 +82,14 @@ namespace SQLiteComponent
         public List<CactusListForm> LoadCactusList()
         {
             List<CactusListForm> list = new List<CactusListForm>();
+            //string temp_str = "INSERT INTO CACTUSLIST(cactus_uid, cactus_name, cactus_price) VALUES ";
 
             sql.ExecuteSQL("SELECT * FROM CACTUSLIST ORDER BY cactus_uid;");
             List<Dictionary<string, object>> temp = sql.GetData();
 
             for (int i = 0; i < temp.Count; i++)
             {
+                //temp_str += "(" + temp[i]["cactus_uid"] + ", '" + temp[i]["cactus_name"].ToString() + "'," + Convert.ToInt32(temp[i]["cactus_price"]) + "),";
                 list.Add(new CactusListForm()
                 {
                     Index = Convert.ToInt32(temp[i]["cactus_uid"]),
@@ -95,7 +97,8 @@ namespace SQLiteComponent
                     Price = Convert.ToInt32(temp[i]["cactus_price"])
                 });
             }
-
+            //Clipboard.Clear();
+            //Clipboard.SetText(temp_str);
             return list;
         }
 
